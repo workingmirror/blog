@@ -1,8 +1,8 @@
 Title: Destiny 2 Gameplay Event Roundup
 Date: 2017-05-19T21:44:54+00:00
 Modified: 2017-05-19T21:44:54+00:00
-Category: Video Games
-Subcategories: News
+Category: News
+Subcategories: Video Games
 Tags: Destiny 2, Bungie
 Slug: destiny-2-gameplay-event-roundup
 Authors: Tim Poon
