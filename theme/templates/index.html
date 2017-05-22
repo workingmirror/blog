@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block meta_other %}
+	<script type="application/ld+json">
+		{
+			"@context" : "http://schema.org",
+			"@type" : "Website",
+			"name": " {{ SITENAME }} ",
+			"url" : "{{ SITEURL }}",
+			"image": "{{ SITEURL }}/theme/images/social-header.png",
+			"description": "{{ SITEDESCRIPTION }}"
+		}
+	</script>
+{% endblock %}
+
+{% block content %}
+	{% for article in articles_page.object_list %}
+		<article>
+			<h2><a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title|striptags }}">{{ article.title }}</a></h2>
+		</article>
+	{% endfor %}
+{% endblock %}

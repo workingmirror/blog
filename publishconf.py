@@ -18,7 +18,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
+GOOGLE_ANALYTICS = 'UA-89220104-1'
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+ADSENSE_CLIENT_ID = 'pub-9133216129946194'
+ADSENSE_SLOT_ID = '8489770069'
