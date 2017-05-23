@@ -1,7 +1,7 @@
 /*
 	RESET
 */
-html, body, header, footer, img, nav, div, ol, ul, li, h1, h2, h3, span, p, a, button, section, article, iframe {
+html, body, header, footer, img, nav, div, ol, ul, li, h1, h2, h3, span, p, a, button, input, form, aside, section, article, iframe {
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 			height: 100%;
 			display: block;
 			padding: 21px 14px;
+			letter-spacing: 0.6px;
 		}
 			.header .nav a:focus,
 			.header .nav a:hover,
@@ -158,3 +159,120 @@ h1, h2, h3, h4, h5, h6 {
 				.header .search-button button:active {
 					color: rgba(48, 49, 51, 0.5);
 				}
+
+/*
+	FOOTER
+*/
+.footer {
+	width: 100%;
+}
+	.footer .links {
+		display: flex;
+		flex-direction: row;
+		padding: 72px 36px;
+		background: #1B1D1F;
+	}
+		.footer .links .link-title {
+			color: #FFF;
+			font-size: 12px;
+			font-weight: 600;
+			font-family: Poppins, Helvetica, Arial, sans-serif;
+			letter-spacing: 0.6px;
+			text-transform: uppercase;
+			padding-bottom: 31px;
+		}
+		.footer .links .link-block {
+			flex-basis: 25%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.footer .links li {
+			padding-bottom: 5px;
+		}
+		.footer .links a {
+			font-size: 14px;
+		}
+			.footer .links a:not(:hover):not(:active):not(:focus) {
+				color: #FFF;
+			}
+		.footer .links input {
+			width: 80%;
+			color: #FFF;
+			font-size: 14px;
+			font-family: Hind, Helvetica, Arial, sans-serif;
+			padding: 10px 15px;
+			border-radius: 2px;
+			border: 1px solid rgba(255, 255, 255, 0.25);
+			background: rgba(26, 27, 28, 0.5);
+		}
+			.footer .links input:focus,
+			.footer .links input:active {
+				border-color: #1080D0;
+			}
+			.footer .links input[type="submit"] {
+				font-size: 12px;
+				font-weight: 600;
+				font-family: Poppins, Helvetica, Arial, sans-serif;
+				text-transform: uppercase;
+				letter-spacing: 1.2px;
+				margin-top: 27px;
+				cursor: pointer;
+			}
+
+	.footer .copy-row {
+		height: 75px;
+		background: #141618;
+		padding: 27px 36px;
+	}
+		.footer .copy-row p {
+			width: 50%;
+			color: #FFF;
+			font-size: 13px;
+			display: inline-block;
+		}
+		.footer .copy-row ul {
+			float: right;
+		}
+		.footer .copy-row li {
+			padding-left: 18px;
+			display: inline-block;
+		}
+		.footer .copy-row a:not(:hover):not(:active):not(:focus) {
+			color: #FFF;
+		}
+
+/*
+	STICKY FOOTER
+*/
+html, body {
+	height: 100%;
+}
+	body {
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+.content {
+	flex: 1;
+}
+
+/*
+	SEARCH FORM
+*/
+#search {
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	pointer-events: none;
+	background: rgba(20, 22, 24, 0.95);
+	transition: opacity 0.2s ease-in;
+	z-index: 99999;
+}
+	#search.show {
+		opacity: 1;
+		pointer-events: all;
+	}
