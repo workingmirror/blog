@@ -415,3 +415,11 @@ html, body {
 		.iso-posts .post-block:not(:first-child) .post-featured {
 			padding-bottom: 50%;
 		}
+
+/*
+	ADSENSE
+*/
+.adsbygoogle {
+	width: 100%;
+	padding: 36px;
+}
