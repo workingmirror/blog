@@ -16,6 +16,7 @@ DEFAULT_PAGINATION = 10
 
 TIMEZONE = 'US/Central'
 DEFAULT_LANG = u'en'
+DEFAULT_DATE_FORMAT = '%b %d, %Y'
 
 # Output
 

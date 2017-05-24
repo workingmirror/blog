@@ -17,10 +17,16 @@
 	<section class="iso-posts">
 		{% for article in articles_page.object_list[:3] %}
 			<a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title|striptags }}" class="post-block">
-				<span class="post-block-date">{{ article.published }}</span>
-				<span class="post-block-category">{{ article.category }}</span>
-				<h2>{{ article.title }}</h2>
-				<span class="post-block-summary">{{ article.summary }}</span>
+				<div class="post-header">
+					<span class="post-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
+					<span class="post-block-category">
+						{{ article.category }}
+						{% if article.subcategories %}, {{ article.subcategories }}{% endif %}
+					</span>
+					<h2 class="post-block-title">{{ article.title }}</h2>
+					<span class="post-block-summary">{{ article.summary }}</span>
+				</div>
+				<div class="post-featured" style="background-image: url({{ article.featured }})"></div>
 			</a>
 		{% endfor %}
 	</section>
