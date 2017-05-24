@@ -32,4 +32,17 @@
 	</section>
 
 	{% include "partials/adsense.html" %}
+
+	<section class="even-posts">
+		{% for article in articles_page.object_list[3:9] %}
+			<a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title|striptags }}" class="post-block">
+				<div class="post-header">
+					<span class="post-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
+					<h2 class="post-block-title">{{ article.title }}</h2>
+					<span class="post-block-summary">{{ article.summary }}</span>
+				</div>
+				<div class="post-featured" style="background-image: url({{ article.featured }})"></div>
+			</a>
+		{% endfor %}
+	</section>
 {% endblock %}
