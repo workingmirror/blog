@@ -82,7 +82,7 @@
 				<li><a href="/category/reviews/">Reviews</a></li>
 				<li><a href="/category/features/">Features</a></li>
 				<li><a href="/category/opinion/">Opinion</a></li>
-				<li class="search-button"><button><i class="fa fa-search"></i></button></li>
+				<li class="search-button"><button type="button"><i class="fa fa-search"></i></button></li>
 			</ul>
 		</nav>
 	</header>
@@ -116,9 +116,9 @@
 				<li><h3 class="link-title">Sign up for Updates</h3></li>
 				<li>
 					<form action="//workingmirror.us15.list-manage.com/subscribe/post?u=2e504d522fa954615f05a70cb&amp;id=b70786119f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required />
+						<input type="email" value="" name="EMAIL" class="email sheer-input" id="mce-EMAIL" placeholder="Email Address" required />
 						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2e504d522fa954615f05a70cb_b70786119f" tabindex="-1" value=""></div>
-						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="buttons sheer-input" />
 					</form>
 				</li>
 			</ul>
@@ -141,8 +141,9 @@
 	</footer>
 
 	<form id="search">
-		<input type="text" name="query" />
-		<input type="submit" value="Search" />
+		<button type="button" class="search-close"><i class="fa fa-close"></i></button>
+		<input type="text" name="query" placeholder="Search..." class="sheer-input" />
+		<button type="submit" class="sheer-input"><i class="fa fa-search"></i></button>
 	</form>
 
 	{% if ADSENSE_CLIENT_ID and ADSENSE_SLOT_ID %}
@@ -156,5 +157,6 @@
 		</script>
 	{% endif %}
 	<script src="https://use.fontawesome.com/e371b1762b.js"></script>
+	<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
 </body>
 </html>
