@@ -51,7 +51,7 @@
 
 		{% include "partials/adsense.html" %}
 
-		<section class="news-posts">
+		<section class="news-posts parallax-background">
 			<h2 class="news-header">Hot Scoops</h2>
 			{% for article in articles_page.object_list if article.category.__str__() == 'News' and article.url not in shown_posts and shown_posts|length < 12 %}
 				<div class="post-block">
