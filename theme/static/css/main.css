@@ -1,7 +1,7 @@
 /*
 	RESET
 */
-html, body, header, footer, img, nav, div, ol, ul, li, h1, h2, h3, span, p, a, button, input, form, aside, section, article, iframe {
+html, body, header, footer, img, nav, div, ol, ul, li, h1, h2, h3, span, p, a, button, input, form, aside, section, article, iframe, ins {
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -433,6 +433,7 @@ html, body {
 	.even-posts .post-block {
 		width: 33%;
 		height: 0;
+		flex-grow: 1;
 		padding-bottom: 16.5%;
 	}
 		.even-posts .post-block .post-header {
