@@ -23,6 +23,7 @@ body {
 
 a {
 	cursor: pointer;
+	transition: color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 	a, a:visited {
 		color: #303133;
@@ -94,7 +95,7 @@ button {
 	width: 100%;
 	background: #FFF;
 	position: relative;
-	transition: height 0.2s ease-in;
+	transition: height 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 	.header.slim {
 		height: 55px;
@@ -287,7 +288,7 @@ html, body {
 	position: absolute;
 	pointer-events: none;
 	background: rgba(20, 22, 24, 0.95);
-	transition: opacity 0.2s ease-in;
+	transition: opacity 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	z-index: 99999;
 }
 	#search.show {
@@ -313,7 +314,7 @@ html, body {
 		opacity: 0;
 		font-size: 24px;
 		position: absolute;
-		transition: opacity 0.2s ease-in, top 0.2s ease-in;
+		transition: opacity 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86), top 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	}
 		#search input[type="text"] {
 			left: 50%;
@@ -387,9 +388,10 @@ html, body {
 		.post-block .post-header .post-block-title {
 			color: #FFF;
 			font-size: 29px;
-			font-weight: bold;
+			font-weight: 600;
 			font-family: Oswald, Helvetica, Arial, sans-serif;
 			text-transform: uppercase;
+			letter-spacing: 0.6px;
 			line-height: 1.2;
 			margin: 9px 0;
 		}
@@ -441,6 +443,61 @@ html, body {
 		.even-posts .post-block .post-block-title {
 			font-size: 20px;
 			text-transform: none;
+		}
+
+/*
+	NEWS POSTS
+*/
+.news-posts {
+	width: 100%;
+	position: relative;
+	background: url(images/category-scoops.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 54px 72px;
+}
+	.news-posts:before {
+		content: '';
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+		position: absolute;
+		background: #141618;
+		opacity: 0.5;
+	}
+
+	.news-posts .news-header {
+		color: #FFF;
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Poppins, Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 0.6px;
+		text-align: center;
+		position: relative;
+		line-height: 1.2;
+		z-index: 1;
+	}
+
+	.news-posts .post-block {
+		width: 100%;
+		max-width: 900px;
+		display: block;
+		margin: 36px auto 0 auto;
+	}
+		.news-posts .post-header {
+			top: 0;
+			left: 0;
+			position: relative;
+			transform: none;
+		}
+		.news-posts .post-header .post-block-title {
+			font-weight: 600;
+			text-transform: none;
+		}
+		.news-posts .post-header a:not(:hover):not(:active):not(:focus) {
+			color: #FFF;
 		}
 
 /*

@@ -14,35 +14,57 @@
 {% endblock %}
 
 {% block content %}
-	<section class="iso-posts">
-		{% for article in articles_page.object_list[:3] %}
-			<a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title|striptags }}" class="post-block">
-				<div class="post-header">
-					<span class="post-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
-					<span class="post-block-category">
-						{{ article.category }}
-						{% if article.subcategories %}, {{ article.subcategories }}{% endif %}
-					</span>
-					<h2 class="post-block-title">{{ article.title }}</h2>
-					<span class="post-block-summary">{{ article.summary }}</span>
-				</div>
-				<div class="post-featured" style="background-image: url({{ article.featured }})"></div>
-			</a>
-		{% endfor %}
-	</section>
+	{% with shown_posts = {} %}
+		<section class="iso-posts">
+			{% for article in articles_page.object_list if article.url not in shown_posts and shown_posts|length < 3 %}
+				<a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title|striptags }}" class="post-block" data-count="{{ shown_posts }}">
+					<div class="post-header">
+						<span class="post-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
+						<span class="post-block-category">
+							{{ article.category }}
+							{% if article.subcategories %}, {{ article.subcategories }}{% endif %}
+						</span>
+						<h3 class="post-block-title">{{ article.title }}</h3>
+						<span class="post-block-summary">{{ article.summary }}</span>
+					</div>
+					<div class="post-featured" style="background-image: url({{ article.featured }})"></div>
+				</a>
+				{% do shown_posts.update({article.url: True}) %}
+			{% endfor %}
+		</section>
 
-	{% include "partials/adsense.html" %}
+		{% include "partials/adsense.html" %}
 
-	<section class="even-posts">
-		{% for article in articles_page.object_list[3:9] %}
-			<a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title|striptags }}" class="post-block">
-				<div class="post-header">
-					<span class="post-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
-					<h2 class="post-block-title">{{ article.title }}</h2>
-					<span class="post-block-summary">{{ article.summary }}</span>
+		<section class="even-posts">
+			{% for article in articles_page.object_list if article.url not in shown_posts and shown_posts|length < 9 %}
+				<a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title|striptags }}" class="post-block">
+					<div class="post-header">
+						<span class="post-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
+						<h3 class="post-block-title">{{ article.title }}</h3>
+						<span class="post-block-summary">{{ article.summary }}</span>
+					</div>
+					<div class="post-featured" style="background-image: url({{ article.featured }})"></div>
+				</a>
+				{% do shown_posts.update({article.url: True}) %}
+			{% endfor %}
+		</section>
+
+		{% include "partials/adsense.html" %}
+
+		<section class="news-posts">
+			<h2 class="news-header">Hot Scoops</h2>
+			{% for article in articles_page.object_list if article.category.__str__() == 'News' and article.url not in shown_posts and shown_posts|length < 12 %}
+				<div class="post-block">
+					<div class="post-header">
+						<span class="post-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
+						<h3 class="post-block-title"><a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.title|striptags }}">{{ article.title }}</a></h3>
+						<span class="post-block-summary">{{ article.summary }}</span>
+					</div>
 				</div>
-				<div class="post-featured" style="background-image: url({{ article.featured }})"></div>
-			</a>
-		{% endfor %}
-	</section>
+				{% do shown_posts.update({article.url: True}) %}
+			{% endfor %}
+		</section>
+
+		{% include "partials/adsense.html" %}
+	{% endwith %}
 {% endblock %}

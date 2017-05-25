@@ -49,6 +49,10 @@ THEME = 'theme'
 JINJA_ENVIRONMENT = {
 	'trim_blocks': True,
 	'lstrip_blocks': True,
+	'extensions': [
+		'jinja2.ext.do',
+		'jinja2.ext.with_',
+	],
 }
 
 # Feed generation is usually not desired when developing
