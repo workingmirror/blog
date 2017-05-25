@@ -22,7 +22,7 @@ They also demand commensurate awareness to achieve that effectivity. The whip is
 
 Success in this game is half stumbling into the right weapon and half adapting to the wrong weapon into the right one. I had been so locked into mastering the aforementioned whip until I found knives that do bleeding damage over time. It altered my strategy to lay into as many enemies at once and as quickly as possible to let time defeat them rather than myself with single and well-timed cracks of the whip.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/dead-cells-2.gif "Dead Cells" "Dead Cells" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/dead-cells-2.gif "Dead Cells" "Dead Cells" %}
 
 That's not to say you have to just pick one way or the other. With two weapons and two skills at any one time, you can outfit yourself with multiple and interwoven ways to kill. With that knife, you can also equip a sword that does bonus damage to bleeding enemies, so then your recourse isn't to dodge and survive but to explode into a whirling series of blade strikes once everyone starts leaking health.
 
@@ -30,7 +30,7 @@ The weirdest part about this game is how it views itself. It throws a lot of lab
 
 It's those differences that actually make a lot of its structure so engaging. Not being able to move back through sections of the world (doors lock behind you) means you always have to push forward, a physical representation of the psychological fortitude you'll require when you die and you can't recover any of what you lost. And with the ability to pump cells into powering up any of your weapons *forever*, this is a roguelike that screams at you to move on. Death is only defeating if you stop playing.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/dead-cells-3.gif "Dead Cells" "Dead Cells" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/dead-cells-3.gif "Dead Cells" "Dead Cells" %}
 
 That's not to say this game has nowhere to go as it continues development. The engine that lays out levels can be rather quirky, leaving you to explore areas that either result in no rewards or punishment except for some protracted backtracking. It's especially upsetting since there doesn't seem to be a lot of variety in the basic blocks it'll use to build the world.
 

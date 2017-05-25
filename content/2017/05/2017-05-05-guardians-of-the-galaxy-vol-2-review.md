@@ -23,7 +23,7 @@ Most interestingly, he attempts to do so within the group itself rather than wit
 
 Not every character gets commensurate treatment, however. Drax's interminable mourning does really grow much more than being a few moments of transitory poignancy and the butt of a few jokes. Nor does Quill's love for his mother evolve beyond a more potent form of the previous film's resolution.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/guardians-of-the-galaxy-vol-2-2.jpg "Guardians of the Galaxy Vol. 2" "Guardians of the Galaxy Vol. 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/guardians-of-the-galaxy-vol-2-2.jpg "Guardians of the Galaxy Vol. 2" "Guardians of the Galaxy Vol. 2" %}
 
 No matter the growth, though, they all form an interesting bit of web. Quill's relationship with his father creates the foundation that everyone else juts out of, but it all folds back in. Quill and Gamora, Gamora and Nebula. Quill and Yondu, Yondu and Rocket. The supersized conclusion capitalizes on this interdependency and makes the resolution feel far bigger than it seems to end up being, reminiscent of Gunn's *Super* in fantastic ways.
 
@@ -31,7 +31,7 @@ The writing, for the most part, carries forward the same sort of purposeful irre
 
 It's very clear, though, that Gunn is an avid Marvel fan long before the MCU. He weaves in an incredible number of Howard the Duck-level in-jokes and references that seems to be just as much for him as they are for us. (Original Guardians? Hot damn!) And then there's just the sheer audacity of involving Ego at all, the living planet of the Marvel Universe, and making him a goddamn Celestial. Woooo nelly.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/guardians-of-the-galaxy-vol-2-3.jpg "Guardians of the Galaxy Vol. 2" "Guardians of the Galaxy Vol. 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/guardians-of-the-galaxy-vol-2-3.jpg "Guardians of the Galaxy Vol. 2" "Guardians of the Galaxy Vol. 2" %}
 
 Expanding on the first film, too, is the raw and undiluted desire of Gunn to put this movie on permanent visual overdrive. He previously touched on a bit of this when the Guardians first visited Nowhere, but this entire production is untethered now, and it is beautiful. Much like how *Pacific Rim* used its deeply rich colors to present a sort of hyper reality, Gunn uses colors to create a reality that is simply *[hyper](https://www.vox.com/summer-movies/2017/5/2/15435848/guardians-2-color-success)*.
 

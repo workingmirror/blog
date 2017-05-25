@@ -4,6 +4,7 @@
 {% block page_url %}{{ article.url }}{% endblock %}
 {% block description %}{{ article.summary|striptags }}{% endblock %}
 {% block social_image %}{{ article.featured }}{% endblock %}
+{% block header_class %} sheer{% endblock %}
 
 {% block meta_other %}
 	{% for tag in article.tags %}
@@ -68,7 +69,25 @@
 {% endblock %}
 
 {% block content %}
-	<article>
-		{{ article.content }}
+	<header class="article-header parallax-background" style="background-image: url({{ article.featured }})">
+		<h1 class="article-title">{{ article.title }}</h1>
+		<span class="article-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
+		<span class="article-category">
+			In
+			<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+			{% if article.subcategories %}, {{ article.subcategories }}{% endif %}
+		</span>
+		<span class="article-author">By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></span>
+	</header>
+	<article class="article">
+		<div class="article-wrapper">
+			{{ article.content }}
+
+			<ul class="tag-list">
+				{% for tag in article.tags %}
+					<li><a href="{{ SITEURL}}/{{ tag.url }}">{{ tag }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
 	</article>
 {% endblock %}

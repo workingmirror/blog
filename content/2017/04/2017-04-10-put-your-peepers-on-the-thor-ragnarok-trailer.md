@@ -19,7 +19,7 @@ It definitely gives up the angle of some *Planet Hulk* business, a popular yet m
 
 But the most important thing to discuss the tone of the trailer, which is, shall we say, distinct. And that is thanks to new-to-the-series director Taika Waititi. I've said it before, but I'll say it again: MCU films thrive on finding the right director. Jon Favreau for the first *Iron Man*, James Gunn for *[Guardians of the Galaxy](http://www.platformnation.com/2014/08/04/guardians-of-the-galaxy-review-blasting-off/)*, and the story of the almost-success Edgar Wright for *[Ant-Man](http://www.platformnation.com/2015/07/20/ant-man-review-astoundingly-adequate/)*. When that pitch becomes perfect, it's bliss. Everything else just sort of...exists.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/thor-ragnarok-2.gif "Thor: Ragnarok" "Thor: Ragnarok" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/thor-ragnarok-2.gif "Thor: Ragnarok" "Thor: Ragnarok" %}
 
 Based on this trailer, it looks like Waititi has taken the characters and the settings and made them completely his own, taking full advantage of his severely underestimated renown as an excuse to go all out and the more or less detached status the *Thor* films have always had in the MCU. Waititi is perhaps best known for *What We Do in the Shadows*, an extraordinary mockumentary that is full-on beautiful nonsense. It chronicles the daily lives of a group of highly dysfunctional vampires trying to make it in the modern world and my gosh is it fantastic.
 

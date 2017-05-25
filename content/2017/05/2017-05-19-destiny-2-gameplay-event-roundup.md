@@ -43,21 +43,21 @@ Your arsenal is clearing expanding as well. You can see grenade launchers and mi
 
 As you heard project lead Mark Noseworthy say, there are still the three base classes that you're familiar with. The Titan, Warlock, and Hunter aren't going anywhere. There's just going to be *more* of them, namely in the form of new subclasses.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-2.jpg "Destiny 2" "Destiny 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-2.jpg "Destiny 2" "Destiny 2" %}
 
 The first that we see is the Dawnblade. Branching from the Warlock, you'll gain the ability to fly over the battlefield and use your weapon in true Master Sword style to unleash hot fire blades at those below. Based on the gameplay footage, it's pretty dang powerful.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-3.jpg "Destiny 2" "Destiny 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-3.jpg "Destiny 2" "Destiny 2" %}
 
 Then there's the Sentinel, a Void Titan that basically turns into Captain America. Seriously, his super is a shield that he can throw into a crowd and it'll ricochet them all to death. And, I guess, use it for normal shield things, too, or whatever.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-4.jpg "Destiny 2" "Destiny 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-4.jpg "Destiny 2" "Destiny 2" %}
 
 Finally, there's the Hunter's Arcstrider. (These names are getting kind of Tolkien, huh.) This one honestly seems the most exciting. You get an energy staff and then go forth to introduce everyone to what you learned watching *The Raid: Redemption*. It's a good shakeup from the ilk of powers we've been used to with the first game, though no word on if those will carry over either.
 
 ### Crucible Changes
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-5.jpg "Destiny 2" "Destiny 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-5.jpg "Destiny 2" "Destiny 2" %}
 
 The Crucible, *Destiny*'s PvP mode, is dropping to 4v4 across all modes. The original game supported up to 6v6, so this sounds like competitive multiplayer is aiming to be a more intimate affair. That new attack/defend game type Countdown seems like it's really going to force a lot of communication at that team size.
 
@@ -65,7 +65,7 @@ There's also a new HUD that gives you more information about your opponent. It's
 
 ### No Orbiting
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-6.jpg "Destiny 2" "Destiny 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-6.jpg "Destiny 2" "Destiny 2" %}
 
 Do you remember how you had to jump up into space to do pretty much anything? It was an almost punitive amount of loading to get to the opportunity to load even more. No more! You just point and go to wherever you want on the new searchable and (supposedly) useful map.
 
@@ -73,7 +73,7 @@ And there's apparently a lot more to point to and go towards. Lost Sectors are d
 
 ### Hot Planet Action
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-7.jpg "Destiny 2" "Destiny 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-7.jpg "Destiny 2" "Destiny 2" %}
 
 Almost too obvious, there will be new locations. Some will be on familiar planets like the European Dead Zone on Earth, which is the stand-in Tower with the Tower being, you know, exploded. But others will be brand spankin' new. You'll go to Saturn's moon Titan, for example, and see its roiling, unending seas consuming an abandoned human utopia.
 
@@ -81,7 +81,7 @@ There's also the little planetoid Nessus, which has been taken over by the Vex a
 
 ### Join a Clan
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-8.jpg "Destiny 2" "Destiny 2" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/destiny-2-8.jpg "Destiny 2" "Destiny 2" %}
 
 Like, officially. There is a new clan system built into *Destiny 2*. Welcome to 2004, I guess.
 

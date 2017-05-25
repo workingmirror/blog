@@ -43,7 +43,7 @@
 		for (var scrollPosition = window.scrollY, i = 0, l = scrollElements.length; i < l; i++) {
 			var scrollDiff = elemTops[i] - scrollPosition;
 			if (scrollDiff < viewHeight && scrollDiff > elemHeights[i]) {
-				scrollElements[i].style.backgroundPosition = 'center calc(50% + ' + (-MAX_SHIFT * (scrollDiff / viewHeight)) + 'px)';
+				scrollElements[i].style.backgroundPosition = 'center calc(0% + ' + (-MAX_SHIFT * (scrollDiff / viewHeight)) + 'px)';
 			}
 		}
 	}

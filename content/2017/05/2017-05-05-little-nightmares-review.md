@@ -23,7 +23,7 @@ Bravery ends up being an unexpected theme because of this. The game rarely uses 
 
 The expectation that you'd be only crawling and hiding in crevices and corners is quickly subverted, too. As a constant pull to the next grotesque diorama, the gameplay changes up at every step. The world is rendered consistently high fidelity and the puzzles depend on any given component strewn on the ground or on a wall that exploration plays a key part. You'll tug on every switch and try to climb every crate and pick up every bauble. It creates the sensation of a fully realized and interactive world.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/little-nightmares-3.jpg "Little Nightmares" "Little Nightmares" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/little-nightmares-3.jpg "Little Nightmares" "Little Nightmares" %}
 
 This variety is crucial to making sure the deluge of petite nightmares doesn't become low hum of bloodied white noise. In every moment you are immersed in a new scene of dripping horror, your brain is also confronted with a fresh and untold interaction. It gives a more effective backdoor avenue for the atmosphere to seep into your brain.
 
@@ -31,7 +31,7 @@ It manages to be appropriately difficult for most of the time. The checkpointing
 
 By the end of its four-hour run, it was pretty clear that any more of *Little Nightmares* would have been too much. It's fairly one-note and it exhausts a litany of small but neat ideas with a sort of subdued fervor, but it does so with a purpose. And as much as that purpose is just to make you feel pretty gross for an afternoon, it does that pretty dang well.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/little-nightmares-4.jpg "Little Nightmares" "Little Nightmares" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/little-nightmares-4.jpg "Little Nightmares" "Little Nightmares" %}
 
 + Art direction is spot-on for this reality-adjacent nightmare
 + Sound design nails every creak and groan of the ship

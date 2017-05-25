@@ -23,7 +23,7 @@ Through the collective absurdity of Kimmy and her friends—let's be honest: eve
 
 Ray Liotta also gets his hand on the ball with Paulie, a dedicated gas station owner and even more dedicated boat enthusiast. His episode "Kimmy Pulls Off a Heist!" gives him a chance to channel shades of *Goodfellas* while Kimmy and Titus indulge in a new level of vaudevillian ridiculousness. It is easily the best episode of the season where this entire New York pocket universe devolves into a crime drama.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/unbreakable-kimmy-schmidt-season-3-2.jpg "Unbreakable Kimmy Schmidt - Season 3" "Unbreakable Kimmy Schmidt - Season 3" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/unbreakable-kimmy-schmidt-season-3-2.jpg "Unbreakable Kimmy Schmidt - Season 3" "Unbreakable Kimmy Schmidt - Season 3" %}
 
 That episode is also the greatest culmination of Jacqueline (Jane Krakowski) and her continuing endeavour to both grow beyond and embrace her Native American heritage. She may also be the only character that persists through her relationship for the entire season, but her story is no longer defined by it as it was with Julian. It's sad that this results in less David Cross as Russ Snyder, but giving Jacqueline greater agency in figuring out what she wants from her life is pretty great.
 
@@ -31,7 +31,7 @@ Perhaps the only person to actually pick up a significant other is Lillian (Caro
 
 Xanthippe (Dylan Gelula) also gets her fair share of development and growth in this season as she endures her first year of college, but her and everyone else's story pales in comparison to Titus' tale. He comes to terms with his desire to be in a relationship while exploring an incredible breadth of career options including *Sesame Street*'s Gordon, pop singer with a hit about West Coast breasts, and secretly straight but double secretly gay wet blanket. If you thought you could not become more obsessed with Titus, you are wrong.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/unbreakable-kimmy-schmidt-season-3-3.jpg "Unbreakable Kimmy Schmidt - Season 3" "Unbreakable Kimmy Schmidt - Season 3" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/unbreakable-kimmy-schmidt-season-3-3.jpg "Unbreakable Kimmy Schmidt - Season 3" "Unbreakable Kimmy Schmidt - Season 3" %}
 
 Unfortunately for all this narrative ambition and maturity, these characters and the show's format are all still ill equipped to handle this emotionality. It often results in some of the jokes feeling more miss than hit as an overwrought spectre hangs over the scene. The show's stellar capacity for wringing jokes out of otherwise dry social commentary—ranging from millennial wokeness to America's unending and overflowing stores of vitriol—is still there, but the goofs come across more as an errant shotgun blast than ever.
 

@@ -23,7 +23,7 @@ And with the immediate disposal of any pretense of accuracy (you don't just tell
 
 As soon as your hopes are lifted, however, they are dragged back down to Earth just as quickly. Consider a meteoric rise, but then an actual meteor crashing into the ground. You'd think something that fails so quickly would move fast, too, but instead, the movie then decides to dabble in crawling to the finish line.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/king-arthur-legend-of-the-sword-2.jpg "King Arthur: Legend of the Sword" "King Arthur: Legend of the Sword" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/king-arthur-legend-of-the-sword-2.jpg "King Arthur: Legend of the Sword" "King Arthur: Legend of the Sword" %}
 
 The story plays out with little consequence. People come and go from the story seemingly at will. Maid Maggie (Annabelle Wallis), for instance, comes barreling into the second act as if she would be the point on which the entire film depends. But the only other thing she does before ghosting is go on a shockingly dull boat ride. Even Guinevere (Àstrid Bergès-Frisbey) manages to be nothing more than a collection of scowls and deus ex machina.
 
@@ -31,7 +31,7 @@ That goes for a handful of other characters that the story tries to dress up wit
 
 If only it could be said that the movie also looks good because that is unfortunately not the case for much of it. Most of the film looks like your standard fantasy fare with significant financial backing. Bland, drab, dark, and unmotivated. There's nothing unique or interesting that happens visually until Ritchie turns Arthur into a superhero, at which point he makes Zack Snyder's *300* flair look like amateur hour.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/king-arthur-legend-of-the-sword-3.jpg "King Arthur: Legend of the Sword" "King Arthur: Legend of the Sword" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/king-arthur-legend-of-the-sword-3.jpg "King Arthur: Legend of the Sword" "King Arthur: Legend of the Sword" %}
 
 Even then, the single biggest advantage towards the pornographically slow motion of those action sequences (read: digestibility) is lost. With quick cuts and impossible camera moves among the purely digital actors, it's hard to keep track of anything but the ground. It's a whirling dervish for all the wrong reasons.
 

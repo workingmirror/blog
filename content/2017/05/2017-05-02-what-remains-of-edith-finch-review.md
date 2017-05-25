@@ -23,7 +23,7 @@ It's hard to describe just how well the story is crafted. The narrative covers a
 
 It even takes the seemingly impossible task of recounting deaths of several children. They're occasionally terrifying but always saddening and yet never disturbing. The idea of trying to walk that line from the outset seems overwhelming—nigh daunting—but the game manages it with aplomb. The story of one of a set of twins writing about how he admired his brother's ambition was particularly affecting, rending your heart in two with equal parts uplifting and emotionally obliterating.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/what-remains-of-edith-finch-2.jpg "What Remains of Edith Finch" "What Remains of Edith Finch" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/what-remains-of-edith-finch-2.jpg "What Remains of Edith Finch" "What Remains of Edith Finch" %}
 
 The most effective tact it takes in making that possible isn't hard to see: there isn't much of a game to play. To some, it'll feel disingenuous or even an affront to their explosion-tuned senses. At most, really, there will be moments of lockstep jumping and some high tension key-turning, but that's it. This story needs to be told in a very particular way, and that way doesn't allow much for wayward exploration.
 
@@ -31,7 +31,7 @@ For those that don't mind being moved along a path riddled with the gamut of hum
 
 That's all I care to say about *What Remains of Edith Finch*. The game is built around a central mystery that lands like a Russian gymnast but hits like a Russian boxer, and to break that down much further would be criminal. It has a lot to say—more than any one game could possibly ever cover—and what it says is painful and beautiful and a necessity to see through to the end.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/what-remains-of-edith-finch-3.jpg "What Remains of Edith Finch" "What Remains of Edith Finch" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/what-remains-of-edith-finch-3.jpg "What Remains of Edith Finch" "What Remains of Edith Finch" %}
 
 + Deft precision in the construction of the story
 + Painstaking attention to detail throughout the house is stunning

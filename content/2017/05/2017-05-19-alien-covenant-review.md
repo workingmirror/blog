@@ -23,7 +23,7 @@ The structure is almost as if Scott just wanted to take his own shot at *Aliens*
 
 It tries, however, to do too much at once. Rather than becoming too big to fail, it becomes too big to succeed. Some parts just fall completely to the wayside like with husband and wife Daniels and Jake Branson (Katherine Waterston and James Franco), a burning relationship that is set up only to be forgotten. A few go the other way where they emerge from nothing, and then other parts simply miss their mark by a mile like the question of duty versus choice.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/alien-covenant-2.jpg "Alien: Covenant" "Alien: Covenant" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/alien-covenant-2.jpg "Alien: Covenant" "Alien: Covenant" %}
 
 When there's that much going on and all of it has an equal chance of being unresolved or unimportant, it's hard to figure out where you should be invested. It's like that movie-long setup in *Suicide Squad* where Captain Boomerang carries that unicorn the entire time but his life is saved by a wad of money rather than a stuffed mythical creature. But now that's the entire movie and that lack of payoff happens about a dozen or so times.
 
@@ -31,7 +31,7 @@ But so much of what stands on its own falls somewhere between great and stellar.
 
 This is also a visually impeccable film. The shots early on of David first gaining awareness of his lot in life is rife with a sort of grotesquely sharp and clean beauty. That carries forward to the film where proto Xenomorphs (Neomorph, apparently, though I prefer Protomorph) slither onto the scene in almost a Sam Raimi sort of way or where a lost city looks immense but feels so claustrophobic. This is a film that nails its look and atmosphere from top to bottom.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/alien-covenant-3.jpg "Alien: Covenant" "Alien: Covenant" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/alien-covenant-3.jpg "Alien: Covenant" "Alien: Covenant" %}
 
 None of it is in service of anything, though. The juxtaposition of Heaven and Hell is worthless when none of the characters particularly care that either one exist. And the quandary of agency that is given rather than taken is aimless since we are once again on the endless *Alien* expedition to seek the ultimate creator. The only devout character in Billy Crudup's Christopher Oram, in fact, isn't even built around his faith; his boils down to being sour about not being captain from the get-go with light Christian reasons sprinkled in.
 
@@ -39,7 +39,7 @@ It perhaps does a fine job of setting up whatever inevitable sequel comes after.
 
 Even then, the actual sequence of immediate events end up being predictable, if enjoyable to watch. That's the problem with fighting your way into a corner between prequels and sequels. It all has to end cleaner and more neatly as the start of the original films creep closer.
 
-{% img https://workingmirror.com/blog/wp-content/uploads/2016/12/alien-covenant-4.jpg "Alien: Covenant" "Alien: Covenant" %}
+{% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/alien-covenant-4.jpg "Alien: Covenant" "Alien: Covenant" %}
 
 And to do that, you need time. And to get more time, you cut stuff. Stuff like, say, allegorical comparisons between Egyptian and Norse lore and imagery with "Ozymandias" and "Entry of the Gods into Valhalla". No one is well developed save for David and Walter, and Daniels only feels fleshed out because Waterston just, like, good at acting.
 

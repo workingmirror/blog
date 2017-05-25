@@ -72,7 +72,7 @@
 	{% block styles %}{% endblock %}
 </head>
 <body>
-	<header class="header">
+	<header class="header{% block header_class %}{% endblock %}">
 		<a href="/" class="logo">
 			<img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo.png" />
 		</a>
