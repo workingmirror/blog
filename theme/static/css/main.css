@@ -104,7 +104,8 @@ button {
 	width: 100%;
 	background: #FFF;
 	position: relative;
-	transition: height 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	transition: height 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+				background 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	z-index: 10;
 }
 	.header.slim {
@@ -204,6 +205,21 @@ button {
 			.header .search-button button:active {
 				color: rgba(48, 49, 51, 0.5);
 			}
+
+.lock-header .header {
+	top: 0;
+	left: 0;
+	position: fixed;
+	box-shadow: 0 0 10px -2px rgba(20, 22, 24, 0.5);
+	transition: top 0.65s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+	.lock-header .header.hide {
+		top: -73px;
+	}
+
+.lock-header .content {
+	margin-top: 65px;
+}
 
 /*
 	FOOTER
@@ -324,7 +340,8 @@ html, body {
 		opacity: 0;
 		font-size: 24px;
 		position: absolute;
-		transition: opacity 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86), top 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		transition: opacity 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+					top 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	}
 		#search input[type="text"] {
 			left: 50%;
