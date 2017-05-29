@@ -1,7 +1,7 @@
 /*
 	RESET
 */
-html, body, header, footer, img, nav, div, ol, ul, li, h1, h2, h3, span, p, a, button, input, form, aside, section, article, iframe, ins {
+html, body, header, footer, img, nav, div, ol, ul, li, h1, h2, h3, span, p, a, i, em, strong, hr, button, input, form, aside, section, article, iframe, ins {
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -40,6 +40,12 @@ h1, h2, h3, h4, h5, h6 {
 button {
 	cursor: pointer;
 	background: transparent;
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	background: #EAEAEA;
 }
 
 /*
@@ -607,6 +613,11 @@ html, body {
 		width: 100%;
 	}
 
+	.article .adsbygoogle {
+		height: auto !important;
+		padding-top: 0;
+	}
+
 .tag-list {
 	margin-top: 36px;
 	display: inline-block;
@@ -623,3 +634,66 @@ html, body {
 		border-radius: 4px;
 		padding: 2px 5px;
 	}
+
+.article-author {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 108px;
+	padding: 1px 0 0 1px;
+}
+	.article-author .article-author-image {
+		width: 100px;
+		height: 100px;
+		border: 4px solid #FFF;
+		border-radius: 50%;
+		overflow: hidden;
+		display: inline-block;
+		vertical-align: top;
+		box-shadow: 0 0 0 1px #7A7D82;
+	}
+
+	.article-author .article-author-info {
+		width: calc(100% - 100px);
+		display: inline-block;
+		padding-left: 36px;
+		float: right;
+	}
+		.article-author .article-author-info:before {
+			content: '';
+			width: 90px;
+			height: 2px;
+			display: block;
+			background: #EAEAEA;
+		}
+
+	.article-author .article-author-name {
+		padding: 27px 0;
+		font-size: 29px;
+		font-weight: 600;
+		font-family: 'Playfair Display', serif;
+	}
+
+	.article-author .article-author-social {
+		margin-top: 27px;
+	}
+		.article-author .article-author-social li {
+			margin-right: 2px;
+			display: inline-block;
+		}
+		.article-author .article-author-social a {
+			display: block;
+			transition: color 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+						background 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		}
+			.article-author .article-author-social a:hover,
+			.article-author .article-author-social a:focus {
+				color: #FFF;
+				background: #3B5998;
+			}
+		.article-author .article-author-social .fa {
+			width: 24px;
+			height: 24px;
+			display: block;
+			text-align: center;
+			padding-top: 4px;
+		}

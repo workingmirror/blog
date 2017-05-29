@@ -69,12 +69,12 @@ FACEBOOK_ADMINS = ['16739672']
 
 # Disqus
 
-DISQUS_SITENAME = 'working-mirror'
+DISQUS_SITENAME = 'testing-working-mirror'
 
 # Plugins
 
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['sitemap', 'liquid_tags.youtube', 'liquid_tags.img']
+PLUGIN_PATHS = ['pelican-plugins', 'plugins']
+PLUGINS = ['sitemap', 'liquid_tags.youtube', 'liquid_tags.img', 'gravatar']
 
 # Sitemap
 
@@ -92,5 +92,6 @@ AUTHORS = {
 		'twitter': 'mockenoff',
 		'facebook': 'timpoon',
 		'instagram': 'mockenoff',
+		'website': 'http://timothypoon.com/',
 	},
 }
