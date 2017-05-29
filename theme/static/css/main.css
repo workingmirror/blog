@@ -743,3 +743,85 @@ html, body {
 		font-family: Hind, Helvetica, Arial, sans-serif;
 		margin-top: 17px;
 	}
+
+.archive {
+	width: 100%;
+	background: #F7F7F7;
+	padding: 0 36px 72px 36px;
+}
+
+.archive-list {
+	display: flex;
+	padding: 72px 0;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+	.archive-list .archive-block {
+		overflow: hidden;
+		background: #FFF;
+		border-radius: 4px;
+		border: 1px solid #EAEAEA;
+		box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+		flex-basis: calc(25% - 15px);
+		align-self: flex-start;
+		display: inline-block;
+		margin: 0 20px 20px 0;
+	}
+		.archive-list .archive-block:nth-child(4n+4) {
+			margin-right: 0;
+		}
+	.archive-list .archive-block-header {
+		width: 100%;
+		height: auto;
+		display: block;
+		overflow: hidden;
+	}
+		.archive-list .archive-block-header:hover .archive-block-image,
+		.archive-list .archive-block-header:focus .archive-block-image {
+			transform: scale(1.05);
+		}
+			.archive-list .archive-block-header:hover .archive-block-image:before,
+			.archive-list .archive-block-header:focus .archive-block-image:before {
+				opacity: 0.5;
+			}
+	.archive-list .archive-block-image {
+		width: 100%;
+		height: 0;
+		padding: 0 0 56.25% 0;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		transform-origin: 50% 50%;
+		transition: transform 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	}
+		.archive-list .archive-block-image:before {
+			content: '';
+			width: 100%;
+			height: 0;
+			opacity: 0;
+			display: block;
+			background: #141618;
+			padding-bottom: 56.25%;
+			transition: opacity 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		}
+
+	.archive-list .archive-block-date,
+	.archive-list .archive-block-title,
+	.archive-list p {
+		padding: 0 36px;
+	}
+		.archive-list .archive-block-date {
+			display: block;
+			font-size: 12px;
+			font-weight: 600;
+			padding-top: 36px;
+		}
+		.archive-list .archive-block-title {
+			margin: 9px 0;
+			font-size: 17px;
+			font-weight: 600;
+		}
+		.archive-list p {
+			font-size: 15px;
+			padding-bottom: 36px;
+		}

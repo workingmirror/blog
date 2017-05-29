@@ -62,4 +62,29 @@
 			</div>
 		</div>
 	</header>
+
+	<section class="archive">
+		{% if ADSENSE_CLIENT_ID and ADSENSE_SLOT_ID %}
+			{% include "partials/adsense.html" %}
+		{% endif %}
+
+		<ul class="archive-list">
+			{% for article in articles %}
+				<li class="archive-block">
+					<a href="{{ SITEURL }}/{{ article.url }}" class="archive-block-header">
+						<div class="archive-block-image" style="background-image: url({{ article.featured }})">&nbsp;</div>
+					</a>
+					<span class="archive-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
+					<h3 class="archive-block-title">
+						<a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+					</h3>
+					{{ article.summary }}
+				</li>
+			{% endfor %}
+		</ul>
+
+		{% if ADSENSE_CLIENT_ID and ADSENSE_SLOT_ID %}
+			{% include "partials/adsense.html" %}
+		{% endif %}
+	</section>
 {% endblock %}
