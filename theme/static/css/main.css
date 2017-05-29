@@ -697,3 +697,49 @@ html, body {
 			text-align: center;
 			padding-top: 4px;
 		}
+
+/*
+	AUTHOR
+*/
+.article-header.author-header {
+	height: 311px;
+	text-align: left;
+	padding-top: 100px;
+	background-position: center center;
+	background-image: url(images/category-authors.jpg);
+}
+	.article-header.author-header:before {
+		display: none;
+	}
+
+	.article-header.author-header .article-author {
+		width: auto;
+		margin: 0 auto;
+		display: table;
+		text-transform: none;
+	}
+
+	.article-header.author-header .article-author-image {
+		width: 110px;
+		height: 110px;
+	}
+
+	.article-header.author-header .article-author-info {
+		width: calc(100% - 110px);
+	}
+		.article-header.author-header .article-author-info:before {
+			display: none;
+		}
+
+	.article-header.author-header .article-author-name {
+		color: #FFF;
+		font-size: 75px;
+	}
+
+	.article-header.author-header .article-author-bio,
+	.article-header.author-header .article-author-social {
+		font-size: 15px;
+		font-weight: normal;
+		font-family: Hind, Helvetica, Arial, sans-serif;
+		margin-top: 17px;
+	}

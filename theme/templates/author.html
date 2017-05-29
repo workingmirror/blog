@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}{{ author }}{% endblock %}
+{% block page_url %}{{ SITEURL }}/{{ author.url }}{% endblock %}
+{% block description %}{{ AUTHORS[author.name].bio|striptags }}{% endblock %}
+{% block social_image %}{{ author.gravatar_url }}?s=200&d=mm&r=r{% endblock %}
+{% block header_class %} sheer{% endblock %}
+
+{% block meta_other %}
+	<meta name="author" content="{{ author.name }}" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Person",
+			"name": "{{ author.name }}",
+			"image": "{{ author.gravatar_url }}?s=200&d=mm&r=r",
+			"url": "{{ SITEURL }}/{{ author.url }}",
+			"mainEntityOfPage": "{{ SITEURL }}/{{ author.url }}",
+			"description": "{{ AUTHORS[author.name].bio|striptags }}"{% if AUTHORS[author.name].website %},
+			"sameAs": ["{{ AUTHORS[author.name].website }}"]
+			{% endif %}
+		}
+	</script>
+{% endblock %}
+
+{% block twitter_card %}summary{% endblock %}
+{% block twitter_other %}
+	<meta name="twitter:creator" content="@{{ AUTHORS[author.name].twitter }}" />
+{% endblock %}
+
+{% block og_type %}profile{% endblock %}
+{% block og_other %}
+	<meta property="profile:username" content="{{ AUTHORS[author.name].twitter }}" />
+	<meta property="profile:last_name" content="{{ author.name.split(' ')[1] }}" />
+	<meta property="profile:first_name" content="{{ author.name.split(' ')[0] }}" />
+{% endblock %}
+
+{% block content %}
+	<header class="article-header author-header">
+		<div class="article-author">
+			<img src="{{ author.gravatar_url }}?s=200&d=mm&r=r" class="article-author-image" />
+			<div class="article-author-info">
+				<h3 class="article-author-name">{{ author.name }}</h3>
+				<p class="article-author-bio">{{ AUTHORS[author.name].bio }}</p>
+				<ul class="article-author-social">
+					{% if AUTHORS[author.name].facebook %}
+						<li><a href="https://facebook.com/{{ AUTHORS[author.name].facebook }}"><i class="fa fa-facebook"></i></a></li>
+					{% endif %}
+					{% if AUTHORS[author.name].twitter %}
+						<li><a href="https://twitter.com{{ AUTHORS[author.name].twitter }}"><i class="fa fa-twitter"></i></a></li>
+					{% endif %}
+					{% if AUTHORS[author.name].instagram %}
+						<li><a href="https://instagram.com{{ AUTHORS[author.name].instagram }}/"><i class="fa fa-instagram"></i></a></li>
+					{% endif %}
+					{% if AUTHORS[author.name].website %}
+						<li><a href="{{ AUTHORS[author.name].website }}"><i class="fa fa-link"></i></a></li>
+					{% endif %}
+					<li>
+				</ul>
+			</div>
+		</div>
+	</header>
+{% endblock %}
