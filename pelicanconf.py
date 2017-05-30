@@ -40,6 +40,11 @@ CATEGORIES_SAVE_AS = 'categories/index.html'
 
 ARCHIVES_SAVE_AS = 'archives/index.html'
 
+PAGINATION_PATTERNS = (
+	(1, '{base_name}/', '{base_name}/index.html'),
+	(2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
+)
+
 # Theme
 
 THEME = 'theme'

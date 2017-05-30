@@ -31,6 +31,11 @@ a {
 	a:hover, a:focus, a:active {
 		color: #1080D0;
 	}
+	a[disabled] {
+		color: #999;
+		cursor: default;
+		pointer-events: none;
+	}
 
 h1, h2, h3, h4, h5, h6 {
 	color: #303133;
@@ -47,6 +52,11 @@ hr {
 	height: 1px;
 	background: #EAEAEA;
 }
+	hr.offset {
+		left: -36px;
+		width: calc(100% + 72px);
+		position: relative;
+	}
 
 /*
 	INPUTS
@@ -99,6 +109,7 @@ hr {
 */
 .adsbygoogle {
 	width: 100%;
+	height: auto !important;
 	padding: 36px;
 }
 
@@ -614,7 +625,6 @@ html, body {
 	}
 
 	.article .adsbygoogle {
-		height: auto !important;
 		padding-top: 0;
 	}
 
@@ -744,15 +754,24 @@ html, body {
 		margin-top: 17px;
 	}
 
+/*
+	ARCHIVE LOOP
+*/
 .archive {
 	width: 100%;
 	background: #F7F7F7;
-	padding: 0 36px 72px 36px;
+	padding: 0 36px 18px 36px;
 }
+	.archive .adsbygoogle:first-child {
+		padding-bottom: 0;
+	}
+	.archive .adsbygoogle:not(:first-child) {
+		padding-top: 0;
+	}
 
 .archive-list {
 	display: flex;
-	padding: 72px 0;
+	padding: 54px 0 72px 0;
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
@@ -762,14 +781,15 @@ html, body {
 		border-radius: 4px;
 		border: 1px solid #EAEAEA;
 		box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
-		flex-basis: calc(25% - 15px);
+		flex-basis: calc(25% - 14px);
 		align-self: flex-start;
 		display: inline-block;
-		margin: 0 20px 20px 0;
+		margin: 18px 18px 0 0;
 	}
 		.archive-list .archive-block:nth-child(4n+4) {
 			margin-right: 0;
 		}
+
 	.archive-list .archive-block-header {
 		width: 100%;
 		height: auto;
@@ -784,6 +804,7 @@ html, body {
 			.archive-list .archive-block-header:focus .archive-block-image:before {
 				opacity: 0.5;
 			}
+
 	.archive-list .archive-block-image {
 		width: 100%;
 		height: 0;
@@ -824,4 +845,38 @@ html, body {
 		.archive-list p {
 			font-size: 15px;
 			padding-bottom: 36px;
+		}
+
+/*
+	PAGINATION
+*/
+.pagination {
+	width: 100%;
+	display: flex;
+	padding: 40px 0 0 0;
+	justify-content: space-between;
+}
+	.pagination .link-prev,
+	.pagination .link-next {
+		height: 36px;
+		line-height: 36px;
+		display: inline-block;
+	}
+	.pagination li {
+		width: 36px;
+		height: 36px;
+		line-height: 36px;
+		border-radius: 50%;
+		display: inline-block;
+		text-align: center;
+		overflow: hidden;
+	}
+		.pagination li.active {
+			background: #EEE;
+		}
+		.pagination li a {
+			width: 100%;
+			height: 100%;
+			display: block;
+			font-size: 15px;
 		}

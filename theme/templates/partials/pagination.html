@@ -1,0 +1,41 @@
+<nav class="pagination" role="pagination">
+	{% if articles_previous_page %}
+		<a href="{{ SITEURL }}/{{ articles_previous_page.url }}" class="link-prev"><i class="fa fa-angle-left"></i></a>
+	{% else %}
+		<a class="link-prev" disabled><i class="fa fa-angle-left"></i></a>
+	{% endif %}
+
+	{% with buffer = 2 %}
+		<ul>
+			{% if articles_page.number > buffer + 1 %}
+				<li><a href="{{ SITEURL }}/{{ articles_paginator.page(1).url }}">1</a></li>
+				{% if articles_page.number > buffer + 2 %}
+					<li>&hellip;</li>
+				{% endif %}
+			{% endif %}
+
+			{% for num in range((articles_page.number - buffer), (articles_page.number + buffer + 1)) %}
+				{% if num > 0 and num <= articles_paginator.num_pages %}
+					{% if num == articles_page.number %}
+						<li class="active">{{ num }}</li>
+					{% else %}
+						<li><a href="{{ SITEURL }}/{{ articles_paginator.page(num).url }}">{{ num }}</a></li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+
+			{% if articles_page.number < articles_paginator.num_pages - buffer %}
+				{% if articles_page.number < articles_paginator.num_pages - (buffer + 1) %}
+					<li>&hellip;</li>
+				{% endif %}
+				<li><a href="{{ SITEURL }}/{{ articles_paginator.page(articles_paginator.num_pages).url }}">{{ articles_paginator.num_pages }}</a></li>
+			{% endif %}
+		</ul>
+	{% endwith %}
+
+	{% if articles_next_page %}
+		<a href="{{ SITEURL }}/{{ articles_next_page.url }}" class="link-next"><i class="fa fa-angle-right"></i></a>
+	{% else %}
+		<a class="link-next" disabled><i class="fa fa-angle-right"></i></a>
+	{% endif %}
+</nav>
