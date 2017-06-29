@@ -79,7 +79,7 @@ DISQUS_SITENAME = 'testing-working-mirror'
 # Plugins
 
 PLUGIN_PATHS = ['pelican-plugins', 'plugins']
-PLUGINS = ['sitemap', 'liquid_tags.youtube', 'liquid_tags.img', 'gravatar']
+PLUGINS = ['sitemap', 'liquid_tags.youtube', 'liquid_tags.img', 'gravatar', 'subcategories']
 
 # Sitemap
 
