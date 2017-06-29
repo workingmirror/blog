@@ -144,3 +144,9 @@
 		{% endif %}
 	</article>
 {% endblock %}
+
+{% block related_posts %}
+	{% for related_post in article.related_posts %}
+		<li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+	{% endfor %}
+{% endblock %}

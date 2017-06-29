@@ -21,8 +21,7 @@
 					<div class="post-header">
 						<span class="post-block-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
 						<span class="post-block-category">
-							{{ article.category }}
-							{% if article.subcategories %}, {{ article.subcategories }}{% endif %}
+							{{ article.category }}{% if article.subcategories %}, {{ ', '.join(article.subcategories) }}{% endif %}
 						</span>
 						<h3 class="post-block-title">{{ article.title }}</h3>
 						<span class="post-block-summary">{{ article.summary }}</span>
@@ -67,4 +66,10 @@
 
 		{% include "partials/adsense.html" %}
 	{% endwith %}
+{% endblock %}
+
+{% block related_posts %}
+	{% for related_post in articles_page.object_list[0].related_posts %}
+		<li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+	{% endfor %}
 {% endblock %}

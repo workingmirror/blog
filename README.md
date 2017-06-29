@@ -8,7 +8,7 @@ Enter [Pelican](https://github.com/getpelican/pelican), a Python-based static si
 
 ## Installation
 
-There's not really a good way to systemically install Pelican plugins other than to include them as submodules ([it even tells you as much](https://github.com/getpelican/pelican-plugins)), so when you clone this repo, you should use the recursive option
+There's not really a good way to systemically install Pelican plugins other than to include them as submodules ([it even tells you as much](https://github.com/getpelican/pelican-plugins)), so when you clone this repo, you should use the recursive option.
 
 ```bash
 $ git clone --recursive https://github.com/workingmirror/blog.git
