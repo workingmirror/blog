@@ -3,11 +3,18 @@ Date: 2017-05-19T15:05:01+00:00
 Modified: 2017-05-19T15:05:01+00:00
 Category: Reviews
 Subcategories: Movies
-Tags: Michael Fassbender, Alien: Covenant, Ridley Scott, Katherine Waterston
+Tags: Alien: Covenant, Ridley Scott, Michael Fassbender, Katherine Waterston
 Slug: alien-covenant-review
 Authors: Tim Poon
 Summary: At least they're trying?
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/alien-covenant-1.jpg
+Rating: 6
+Release: May 19, 2017
+Genre: Science fiction horror
+Director: Ridley Scott
+Cast: Michael Fassbender, Katherine Waterston, Billy Crudup, Danny McBride, Demián Bichir
+Duration: PT2H2M
+Website: http://www.foxmovies.com/movies/alien-covenant
 
 Ambition can only get you so far. That's the problem with *Alien: Covenant*. Ridley Scott continues his one-man war to revive the legendary but flailing franchise, and despite some genuine scares and deep lore-building with sights set on material grander than itself, it's a losing battle. It's too muddled to be anything but that.
 
@@ -44,5 +51,3 @@ Even then, the actual sequence of immediate events end up being predictable, if 
 And to do that, you need time. And to get more time, you cut stuff. Stuff like, say, allegorical comparisons between Egyptian and Norse lore and imagery with "Ozymandias" and "Entry of the Gods into Valhalla". No one is well developed save for David and Walter, and Daniels only feels fleshed out because Waterston just, like, good at acting.
 
 And once you cut all that, you end up with a good-looking film with great performances shoving along hollow characters to a hurried and haphazard finish line of half-assed themes and threads. *Alien: Covenant* is not bad by any means, but good god is it far from great.
-
-**Final Score**: 6 out of 10

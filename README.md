@@ -88,6 +88,41 @@ Pelican supports only a single `Category` out of the box, so we have a custom at
 
 `Subcategories` are completely optional, but you should upgrade the `Subcategories` value to the `Category` if there is nothing in `Category` you would use for your post.
 
+#### Reviews
+
+Reviews require some special metadata to help populate structured data. This helps web crawlers find the information they need.
+
+All reviews require the following.
+
+- The first item in `Tags` should be the product title
+- `Rating` - a one-out-of-ten numerical value indicating the review score
+- `Release` - formatted date string for when the reviewed product was released
+- `Website` - URL of product website (can be the Wikipedia page)
+
+##### Movies
+
+- `Genre` - the film's genre; don't shorten names (i.e., "science fiction" instead of "sci-fi")
+- `Director` - comma-separated if there are multiple directors
+- `Cast` - just the leads or any substantially impactful supporting cast
+- `Duration` - use the [ISO 8601 duration format](http://en.wikipedia.org/wiki/ISO_8601) (e.g., `PT1H30M`)
+
+##### Video Games
+
+- `Genre` -  using whatever Wikipedia lists is usually a safe bet
+- `Developer` - comma-separated if there are multiple studios involved
+- `Publisher` - make sure it's publishing arm if it's also a development studio
+- `Director` - we'll also take the lead designer
+- `Players` - the player count the game allows
+- `Platforms` - all available platforms at the time of review
+
+##### TV Shows
+
+- `Season` - numerical season of the show being reviewed
+- `Genre` - almost always choose to use `sitcom` over `comedy`
+- `Showrunner` - just for the season being reviewed
+- `Cast` - keep it to the regular cast
+- `Platforms` - restrict it to the platforms it premiered on like `Netflix` or `HBO`
+
 ### Embedding Media
 
 We use the [`liquid_tags`](https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags) plugin.

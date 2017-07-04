@@ -8,6 +8,13 @@ Slug: free-fire-review
 Authors: Tim Poon
 Summary: Over-the-top Brie Larson is the best Brie Larson.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/free-fire-1.jpg
+Rating: 7
+Release: March 31, 2017
+Genre: Action-comedy
+Director: Ben Wheatley
+Cast: Sharlto Copley, Armie Hammer, Brie Larson, Cillian Murphy, Jack Reynor, Babou Ceesay, Enzo Cilenti, Sam Riley, Michael Smiley, Noah Taylor
+Duration: PT1H30M
+Website: http://freefiremovie.com/
 
 *Free Fire* is in the same stroke an absurdist presentation of the longest gunfight you'll ever see and one grounded in an odd hyperrealism you don't see much in action films. What starts as a funny and loose character study with an improbable amount of bullets ends the same way. And while that may sound like a one-note movie, that one note tends to be slick, sassy, and worth your time.
 
@@ -34,5 +41,3 @@ With such a robust cast, it's only natural some would take the lead while others
 {% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/free-fire-3.jpg "Free Fire" "Free Fire" %}
 
 As it is, though, *Free Fire* knows pretty much exactly what it is, and it doesn't outstay its welcome. At a lean 90 minutes, it gets in and gets out in a way these hapless underworld criminals just couldn't manage. It doesn't have anything new to say or anything extraordinary to hand you, but it does have a lot of fun showing you what it is. And that is a rare thing to find.
-
-**Final Score**: 7 out of 10

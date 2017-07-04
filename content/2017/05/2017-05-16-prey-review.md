@@ -3,11 +3,21 @@ Date: 2017-05-16T16:33:21+00:00
 Modified: 2017-05-16T16:33:21+00:00
 Category: Reviews
 Subcategories: Video Games
-Tags: Prey, Arkane Studios
+Tags: Prey, Arkane Studios, Bethesda Softworks, Raphaël Colantonio
 Slug: prey-review
 Authors: Tim Poon
 Summary: You have no idea.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/prey-1.jpg
+Rating: 8
+Release: May 5, 2017
+Genre: First-person shooter
+Developer: Arkane Studios
+Publisher: Bethesda Softworks
+Director: Raphaël Colantonio
+Players: Single-player
+Platforms: PlayStation 4, Xbox One, PC
+Price: $59.99
+Website: https://prey.com/
 
 Eight. There are probably only eight games ever made that have the twisted, unique, and strangely enviable ability to fuck your brain up. We're talking about walking away from it, and the game still has the hold on the way you look at the world—your home, your friends, all of it. Now, with the release of Arkane Studios' *Prey*, that total has gone up to nine.
 
@@ -48,8 +58,6 @@ Perhaps the best comparison for *Prey* is something akin to a partner with commi
 + Mechanics and systems play together wonderfully
 - Ends up doubting itself towards the end before a mild recovery
 - Technical woes out the yang
-
-**Final Score**: 8 out of 10
 
 **Game Review**: Prey
 **Release**: May 5, 2017

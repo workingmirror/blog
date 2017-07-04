@@ -3,11 +3,21 @@ Date: 2017-05-02T13:56:05+00:00
 Modified: 2017-05-02T13:56:05+00:00
 Category: Reviews
 Subcategories: Video Games
-Tags: Giant Sparrow, What Remains of Edith Finch
+Tags: What Remains of Edith Finch, Giant Sparrow, Annapurna Interactive, Ian Dallas
 Slug: what-remains-of-edith-finch-review
 Authors: Tim Poon
 Summary: More than just leftovers.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/what-remains-of-edith-finch-1.jpg
+Rating: 9
+Release: April 25, 2017
+Genre: Forensic narrative
+Developer: Giant Sparrow
+Publisher: Annapurna Interactive
+Director: Ian Dallas
+Players: Single-player
+Platforms: PlayStation 4, PC
+Price: $19.99
+Website: http://annapurna.pictures/interactive/what-remains-of-edith-finch
 
 Fairy tales hinge on a single crucial detail. There's one point where it turns from the dark and into something spritely—moral and teachable. What happens, though, if it keeps going. That story just stays at the witch's house or the huntsman never comes. This is where *What Remains of Edith Finch* begins.
 
@@ -37,14 +47,3 @@ That's all I care to say about *What Remains of Edith Finch*. The game is built 
 + Painstaking attention to detail throughout the house is stunning
 + Soundtrack is the perfect complement to the story and the action
 + The final turn is top-notch
-
-**Final Score**: 9 out of 10
-
-**Game Review**: What Remains of Edith Finch
-**Release**: April 25, 2017
-**Genre**: Forensic narrative
-**Developer**: Giant Sparrow
-**Available Platforms**: PlayStation 4, PC
-**Players**: Single-player
-**MSRP**: $19.99
-**Website**: [http://annapurna.pictures/interactive/what-remains-of-edith-finch](http://annapurna.pictures/interactive/what-remains-of-edith-finch)

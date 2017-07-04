@@ -93,6 +93,11 @@
 		MAX_SHIFT = 100;
 
 	if (scrollElements.length > 0) {
+		for (var i = 0, l = scrollElements.length; i < l; i++) {
+			if (!scrollElements[i].getAttribute('parallax-start')) {
+				scrollElements[i].setAttribute('parallax-start', '0%');
+			}
+		}
 		attachScrollListener();
 	}
 
@@ -125,7 +130,7 @@
 		for (var scrollPosition = window.scrollY, i = 0, l = scrollElements.length; i < l; i++) {
 			var scrollDiff = elemTops[i] - scrollPosition;
 			if (scrollDiff < viewHeight && scrollDiff > elemHeights[i]) {
-				scrollElements[i].style.backgroundPosition = 'center calc(0% + ' + (-MAX_SHIFT * (scrollDiff / viewHeight)) + 'px)';
+				scrollElements[i].style.backgroundPosition = 'center calc(' + scrollElements[i].getAttribute('parallax-start') + ' + ' + (-MAX_SHIFT * (scrollDiff / viewHeight)) + 'px)';
 			}
 		}
 	}

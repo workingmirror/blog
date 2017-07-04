@@ -3,11 +3,21 @@ Date: 2017-05-05T13:54:03+00:00
 Modified: 2017-05-05T13:54:03+00:00
 Category: Reviews
 Subcategories: Video Games
-Tags: Little Nightmares, Tarsier Studios
+Tags: Little Nightmares, Tarsier Studios, Bandai Namco Entertainment, Dennis Talajic
 Slug: little-nightmares-review
 Authors: Tim Poon
 Summary: But big terrors.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/little-nightmares-2.jpg
+Rating: 8
+Release: April 28, 2017
+Genre: Puzzle platformer
+Developer: Tarsier Studios
+Publisher: Bandai Namco Entertainment
+Director: Dennis Talajic
+Players: Single-player
+Platforms: PlayStation 4, Xbox One, PC
+Price: $19.99
+Website: http://www.little-nightmares.com/en/
 
 *Little Nightmares* is the kind of dual-layered unsettling that only the Swedes can manage. Much like the incredible and equally Swedish *Year Walk*, *Little Nightmares* presents its discontent upfront, making sure its terror is immediate and shocking. But as you continue to wade deeper and deeper into its dripping, seeping horror, it affects you in ways you didn't expect.
 
@@ -37,14 +47,3 @@ By the end of its four-hour run, it was pretty clear that any more of *Little Ni
 + Sound design nails every creak and groan of the ship
 + Every interaction and puzzle is something new
 - Controls can be frustratingly floaty and imprecise at times
-
-**Final Score**: 8 out of 10
-
-**Game Review**: Little Nightmares
-**Release**: April 28, 2017
-**Genre**: Puzzle platformer
-**Developer**: Tarsier Studios
-**Available Platforms**: PlayStation 4, Xbox One, PC
-**Players**: Single-player
-**MSRP**: $19.99
-**Website**: [http://www.little-nightmares.com/en/](http://www.little-nightmares.com/en/)

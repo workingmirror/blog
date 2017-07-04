@@ -3,7 +3,7 @@ Date: 2017-04-10T11:53:39+00:00
 Modified: 2017-04-10T11:53:39+00:00
 Category: News
 Subcategories: Movies
-Tags: Marvel Cinematic Universe, Thor: Ragnarok, Taika Waititi, Chris Hemsworth
+Tags: Thor: Ragnarok, Taika Waititi, Chris Hemsworth, Marvel Cinematic Universe
 Slug: put-your-peepers-on-the-thor-ragnarok-trailer
 Authors: Tim Poon
 Summary: Oh, also Loki is here.

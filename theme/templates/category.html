@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category }}{% endblock %}
+{% block page_url %}{{ SITEURL }}/{{ category.url }}{% endblock %}
+{% block description %}{{ CATEGORIES[category.name].description|striptags }}{% endblock %}
+{% block social_image %}{{ CATEGORIES[category.name].image }}{% endblock %}
+{% block header_class %} sheer{% endblock %}
+
+{% block meta_other %}
+	{% with shown_authors = {} %}
+		{% for article in articles_page.object_list %}
+			{% for author in article.authors if author.name not in shown_authors %}
+				<meta name="author" content="{{ author.name }}" />
+				{% do shown_authors.update({author.name: True}) %}
+			{% endfor %}
+		{% endfor %}
+	{% endwith %}
+
+	<script type="application/ld+json">
+		{
+			"@context" : "http://schema.org",
+			"@type" : "CollectionPage",
+			"name": "{{ category.name }} - {{ SITENAME }}",
+			"url" : "{{ SITEURL }}/{{category.url}}",
+			"image": "{{ CATEGORIES[category.name].image }}",
+			"description": "{{ CATEGORIES[category.name].description }}"
+		}
+	</script>
+{% endblock %}
+
+{% block twitter_card %}summary{% endblock %}
+{% block twitter_other %}
+	{% with shown_authors = {} %}
+		{% for article in articles_page.object_list %}
+			{% for author in article.authors if author.name not in shown_authors %}
+				<meta name="twitter:creator" content="@{{ AUTHORS[author.name].twitter }}" />
+				{% do shown_authors.update({author.name: True}) %}
+			{% endfor %}
+		{% endfor %}
+	{% endwith %}
+{% endblock %}
+
+{% block og_type %}website{% endblock %}
+{% block og_other %}
+	<meta property="article:section" content="{{ category }}" />
+	{% with shown_authors = {} %}
+		{% for article in articles_page.object_list %}
+			{% for author in article.authors if author.name not in shown_authors %}
+				<meta property="article:author" content="https://www.facebook.com/{{ AUTHORS[author.name].facebook }}" />
+				{% do shown_authors.update({author.name: True}) %}
+			{% endfor %}
+		{% endfor %}
+	{% endwith %}
+{% endblock %}
+
+{% block content %}
+	<header class="article-header category-header parallax-background" style="background-image: url({{ CATEGORIES[category.name].image }}" parallax-start="33%">
+		<h1 class="article-title category-title">{{ category.name }}</h1>
+		<span class="article-category category-description">{{ CATEGORIES[category.name].description }}</span>
+	</header>
+
+	<section class="archive">
+		{% if ADSENSE_CLIENT_ID and ADSENSE_SLOT_ID %}
+			{% include "partials/adsense.html" %}
+		{% endif %}
+
+		{% include "partials/loop.html" %}
+
+		{% if ADSENSE_CLIENT_ID and ADSENSE_SLOT_ID %}
+			{% include "partials/adsense.html" %}
+		{% endif %}
+
+		<hr class="offset" />
+
+		{% include "partials/pagination.html" %}
+	</section>
+{% endblock %}
+
+{% block related_posts %}
+	{% for related_post in articles_page.object_list[0].related_posts %}
+		<li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+	{% endfor %}
+{% endblock %}

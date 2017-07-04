@@ -8,6 +8,13 @@ Slug: king-arthur-legend-of-the-sword-review
 Authors: Tim Poon
 Summary: There's no king here.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/king-arthur-legend-of-the-sword-1.jpg
+Rating: 4
+Release: May 12, 2017
+Genre: Epic fantasy
+Director: Guy Ritchie
+Cast: Charlie Hunnam, Àstrid Bergès-Frisbey, Djimon Hounsou, Aidan Gillen, Jude Law
+Duration: PT2H6M
+Website: http://kingarthurmovie.com/
 
 Going into *King Arthur: Legend of the Sword*, the biggest draw is the also the most obvious one: Guy Ritchie. There's only so much you can do to the foundational Arthurian lore to make it interesting, and having the guy that made *Snatch* write and direct it is one rock solid way to kickstart that intrigue. Unfortunately, throughout this two-hour slog, anything engaging lost amidst a belligerent, perfunctory swamp of bombast.
 
@@ -38,5 +45,3 @@ Even then, the single biggest advantage towards the pornographically slow motion
 If this sounds excessively harsh, that's because this should really act as a warning. There are some fantastic things here. Hunnam is what seems like the perfect actor for this role for Ritchie, able to present just enough of a knowing facade that you're into his role while winking along the whole way. And Jude Law manages to wring emotion from pretty much nothing as Vortigern, even though his arc is easily the most bountiful.
 
 But to get to all the good bits where a writer/director flexes his finely tuned and highly stylized muscles with kinetic pans and zooms and off-the-wall sense of modernity clashes delightfully with medieval pre-England, you have to suffer. You have to sit through a lot of tedious, boring, incongruous storytelling. So if you think you can stomach that, then sure, there's something here for you.
-
-**Final Score**: 4 out of 10

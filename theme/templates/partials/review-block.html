@@ -1,0 +1,38 @@
+<div class="review-block">
+	<h5 class="rating">
+		<strong>Final Score</strong>: {{ article.metadata.rating }} out of 10
+	</h5>
+
+	<ul class="block-stats">
+		{% if article.subcategories[0] == 'Video Games' %}
+			<li><strong>Game Reviewed</strong>: {{ article.tags[0].name }}</li>
+			<li><strong>Release</strong>: {{ article.metadata.release }}</li>
+			<li><strong>Genre</strong>: {{ article.metadata.genre }}</li>
+			<li><strong>Developer</strong>: {{ article.metadata.developer }}</li>
+			<li><strong>Director</strong>: {{ article.metadata.director }}</li>
+			<li><strong>Available Platforms</strong>: {{ article.metadata.platforms }}</li>
+			<li><strong>Players</strong>: {{ article.metadata.players }}</li>
+			<li><strong>MSRP</strong>: {{ article.metadata.price }}</li>
+			<li><strong>Website</strong>: <a href="{{ article.metadata.website }}">{{ article.metadata.website }}</a></li>
+		{% elif article.subcategories[0] == 'Movies' %}
+			<li><strong>Movie Reviewed</strong>: {{ article.tags[0].name }}</li>
+			<li><strong>Release</strong>: {{ article.metadata.release }}</li>
+			<li><strong>Genre</strong>: {{ article.metadata.genre }}</li>
+			<li><strong>Director</strong>: {{ article.metadata.director }}</li>
+			<li><strong>Website</strong>: <a href="{{ article.metadata.website }}">{{ article.metadata.website }}</a></li>
+		{% elif article.subcategories[0] == 'Television' %}
+			<li><strong>Show Reviewed</strong>: {{ article.tags[0].name }}</li>
+			<li><strong>Season Reviewed</strong>: {{article.metadata.season }}</li>
+			<li><strong>Release</strong>: {{ article.metadata.release }}</li>
+			<li><strong>Genre</strong>: {{ article.metadata.genre }}</li>
+			<li><strong>Showrunner</strong>: {{ article.metadata.showrunner }}</li>
+			<li><strong>Website</strong>: <a href="{{ article.metadata.website }}">{{ article.metadata.website }}</a></li>
+		{% elif article.subcategories[0] == 'Technology' %}
+			<li><strong>Product Reviewed</strong>: {{ article.tags[0].name }}</li>
+			<li><strong>Release</strong>: {{ article.metadata.release }}</li>
+			<li><strong>Manufacturer</strong>: {{ article.metadata.manufacturer }}</li>
+			<li><strong>Price</strong>: {{ article.metadata.price }}</li>
+			<li><strong>Website</strong>: <a href="{{ article.metadata.website }}">{{ article.metadata.website }}</a></li>
+		{% endif %}
+	</ul>
+</div>

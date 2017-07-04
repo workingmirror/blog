@@ -20,7 +20,7 @@
 	<script type="application/ld+json">
 		{
 			"@context": "http://schema.org",
-			"@type": "Article",
+			"@type": "{{ 'Review' if article.category.name == 'Reviews' else 'Article' }}",
 			"name": "{{ article.title|striptags }}",
 			"headline": "{{ article.title|striptags }}",
 			"datePublished": "{{ article.date }}",
@@ -28,7 +28,8 @@
 			"author": {
 				"@type": "Person",
 				"name": "{{ article.author.name }}",
-				"url": "{{ SITEURL }}/{{ article.author.url }}"
+				"url": "{{ SITEURL }}/{{ article.author.url }}",
+				"sameAs": "{{ AUTHORS[article.author.name].website }}"
 			},
 			"image": "{{ article.featured }}",
 			"url": "{{ SITEURL }}/{{ article.url }}",
@@ -42,7 +43,22 @@
 					"width": 400,
 					"height": 400
 				}
-			}
+			}{% if article.category.name == 'Reviews' %},
+				"itemReviewed": {
+					"@type": "{{ CATEGORIES[article.subcategories[0]].type }}",
+					"name": "{{ article.tags[0].name }}",
+					"image": "{{ article.featured }}",
+					"sameAs": "{{ article.metadata.website }}"{% if article.metadata.director %},
+						"director": "{{ article.metadata.director }}"
+					{% endif %}
+				},
+				"reviewRating": {
+					"@type": "Rating",
+					"ratingValue": {{ article.metadata.rating }},
+					"worstRating": 0.0,
+					"bestRating": 10.0
+				}
+			{% endif %}
 		}
 	</script>
 {% endblock %}
@@ -83,6 +99,10 @@
 		<div class="article-wrapper">
 			<section class="article-content">
 				{{ article.content }}
+
+				{% if article.metadata.rating %}
+					{% include "partials/review-block.html" %}
+				{% endif %}
 			</section>
 
 			<section class="article-meta">

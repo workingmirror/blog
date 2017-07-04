@@ -3,11 +3,18 @@ Date: 2017-05-26T14:43:16+00:00
 Modified: 2017-05-26T14:43:16+00:00
 Category: Reviews
 Subcategories: Movies
-Tags: Pirates of the Caribbean: Dead Men Tell No Tales, Johnny Depp
+Tags: Pirates of the Caribbean: Dead Men Tell No Tales, Joachim Rønning, Espen Sandberg, Johnny Depp
 Slug: pirates-of-the-caribbean-dead-men-tell-no-tales-review
 Authors: Tim Poon
 Summary: To Davy Jones with ye.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/pirates-of-the-caribbean-dead-men-tell-no-tales-1.jpg
+Rating: 4
+Release: May 26, 2017
+Genre: Fantasy swashbuckler
+Director: Joachim Rønning, Espen Sandberg
+Cast: Johnny Depp, Javier Bardem, Brenton Thwaites, Kaya Scodelario, Kevin McNally, Geoffrey Rush
+Duration: PT2H9M
+Website: http://pirates.disney.com/pirates-of-the-caribbean-dead-men-tell-no-tales
 
 *Dead Men Tell No Tales* is the second best *Pirates of the Caribbean* film. It's a tight race, but not in the direction you'd hope. This is a sloppy movie, devoid of reason, passion, and sincerity. It has a few good ideas that fail to progress beyond ideas, relying solely on the zesty performances of the fresh blood to the series to save this sinking ship.
 
@@ -46,5 +53,3 @@ You can see that in the inclusion of returning Captain Barbossa (Geoffrey Rush).
 These and many more are the disappointments that await for this theme park attraction. The concepts are mostly interesting, but they fail to pick up any steam and are instead shoved along like corpses to the finish line. The somewhat climactic conflict between Salazar and Sparrow's crews should be exciting—it would even be surprising if I described it to you now—but seeing it play out as nothing but dark objects moving amongst dark backgrounds, it's just ten minutes of squinting.
 
 After all that, you must be asking yourself how it ends up being the second best *Pirates* movie. Easy: it follows logic, it doesn't assault the senses, and the middle bits involving an island are genuinely fun. Even if zero percent of the jokes land and it wastes its bountiful harvest of talent, you're forgetting that for a franchise that started with explosive and immediate success, it then spent eight years trying to put that bar in the ground. And *Dead Men Tell No Tales* is just another heap of dirt on top.
-
-**Final Score**: 4 out of 10

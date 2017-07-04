@@ -3,11 +3,18 @@ Date: 2017-05-29T08:12:25+00:00
 Modified: 2017-05-29T08:12:25+00:00
 Category: Reviews
 Subcategories: Movies
-Tags: Dwayne Johnson, Baywatch, Seth Gordon, Zac Efron
+Tags: Baywatch, Seth Gordon, Dwayne Johnson, Zac Efron
 Slug: baywatch-review
 Authors: Tim Poon
 Summary: It feels like drowning.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/baywatch-1.jpg
+Rating: 2
+Release: May 25, 2017
+Genre: Action-comedy
+Director: Seth Gordon
+Cast: Dwayne Johnson, Zac Efron, Priyanka Chopra, Alexandra Daddario
+Duration: PT1H56M
+Website: http://www.thebaywatchmovie.com/
 
 The best thing I can say about *Baywatch* is that there were some scenes where I felt nothing at all. It is bad in the worst way you can be bad. Some films power through by being hilariously awful for goofs or offensively terrible for shock, but *Baywatch* is simply offensive. It's laughless, uninteresting, and trashy.
 
@@ -36,5 +43,3 @@ The men don't get away unscathed either. Jon Bass plays Ronnie, a technologicall
 No one learns anything save for Efron's Brody, but the lesson he learns is the same one he gets five minutes into showing up in Florida. And then he keeps learning it over and over again for the next hour. No one changes except Ronnie and C.J. where they somehow end up having sex, the only perceivable reason being that the writers made it so. And no one has any motivations except the villain Victoria Leeds (Priyanka Chopra), motivations that can be boiled down to dollar signs.
 
 Characters come and go for no reason, reliable comedic talents in Hannibal Buress and Rob Huebel flounder the entire way, and everyone seems liable to be replaced with cardboard cutouts. The only entertaining part is the constantly CGI'd sunglasses Johnson wears. *Baywatch* doesn't care about anyone or anything within its musclebound boundaries, and neither should you.
-
-**Final Score**: 2 out of 10

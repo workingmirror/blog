@@ -3,11 +3,19 @@ Date: 2017-05-22T14:29:58+00:00
 Modified: 2017-05-22T14:29:58+00:00
 Category: Reviews
 Subcategories: Television
-Tags: Netflix Original, Unbreakable Kimmy Schmidt, Ellie Kemper
+Tags: Unbreakable Kimmy Schmidt, Robert Carlock, Ellie Kemper, Netflix Original
 Slug: unbreakable-kimmy-schmidt-season-3-review
 Authors: Tim Poon
 Summary: It's strong as hell.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/unbreakable-kimmy-schmidt-season-3-1.jpg
+Rating: 8
+Season: 3
+Release: May 19, 2017
+Genre: Sitcom
+Showrunner: Robert Carlock
+Cast: Ellie Kemper, Tituss Burgess, Carol Kane, Jane Krakowski
+Platforms: Netflix
+Website: http://www.netflix.com/title/80025384
 
 For as much as *Unbreakable Kimmy Schmidt* is a live-action cartoon, it always had a strange sense of ambition. The first season flirted with the darkness of trauma and victimization. The second played with a season-long mystery that started from the first minute. Now the anticipated third season has the odd audacity to simply do less but with a surprising amount of refinement.
 
@@ -36,5 +44,3 @@ Xanthippe (Dylan Gelula) also gets her fair share of development and growth in t
 Unfortunately for all this narrative ambition and maturity, these characters and the show's format are all still ill equipped to handle this emotionality. It often results in some of the jokes feeling more miss than hit as an overwrought spectre hangs over the scene. The show's stellar capacity for wringing jokes out of otherwise dry social commentary—ranging from millennial wokeness to America's unending and overflowing stores of vitriol—is still there, but the goofs come across more as an errant shotgun blast than ever.
 
 If that's the sacrifice demanded, though, for grander narrative goals, then that's fine by me. After taking these first few seasons in establishing this colorful gallery of misfits, I'd much rather see them become interesting people instead of dead cork boards on which to hang jokes about the Internet. As a result, this third season of *Unbreakable Kimmy Schmidt* is far from effortless and a bit less charming, but it still has enough wit and personality to make up for it.
-
-**Final Score**: 8 out of 10

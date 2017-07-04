@@ -8,6 +8,13 @@ Slug: guardians-of-the-galaxy-vol-2-review
 Authors: Tim Poon
 Summary: Pump up the jams.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/guardians-of-the-galaxy-vol-2-1.jpg
+Rating: 8
+Release: May 5, 2017
+Genre: Action-comedy
+Director: James Gunn
+Cast: Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel, Bradley Cooper, Michael Rooker, Karen Gillan, Pom Klementieff, Kurt Russell
+Duration: PT2H16M
+Website: http://movies.disney.com/guardians-of-the-galaxy-vol-2
 
 As fresh and invigorating as the original was, *Guardians of the Galaxy Vol. 2* eschews the predictable expectations and heads off into the wild blue yonder. It continues to be endlessly charming (if a bit less effortlessly), but more importantly, it decides to look right down the barrel and confront a plethora of complex and nuanced emotional stakes. That's right: amidst a script of dick jokes and curveball cameos, there is an impressively heartfelt core.
 
@@ -38,5 +45,3 @@ Expanding on the first film, too, is the raw and undiluted desire of Gunn to put
 This gives cinematographer Henry Braham a great deal of laterality to work with, crafting several shots on the order of stunning. The more intimate action scenes may be edited a bit roughly, but this movie doesn't ever look not terrific. And that's in no small part due to the entirety of the film's art department because everything is bonkers but awesome. Perhaps more than even *[Doctor Strange](https://workingmirror.com/2016/11/04/doctor-strange-review/)*, this is something to put your peepers on.
 
 In any given moment, this movie is a joy. It even leads into a worthwhile conclusion that resolves matters while opening the door to other, equally tantalizing ones. But looking back on it, it's easy to say that this is a bit too familiar—like riding a favorite roller coaster one more time. That doesn't stop *Guardians of the Galaxy Vol. 2*, however, from being one hell of a ride.
-
-**Final Score**: 8 out of 10

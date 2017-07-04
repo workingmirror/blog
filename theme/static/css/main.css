@@ -755,6 +755,26 @@ html, body {
 	}
 
 /*
+	CATEGORY
+*/
+.article-header.category-header {
+	height: 350px;
+	padding-top: 160px;
+}
+	.article-header.category-header .category-title {
+		font-size: 55px;
+		font-family: Poppins, Helvetica, Arial, sans-serif;
+		letter-spacing: -1px;
+	}
+	.article-header.category-header .category-description {
+		border: none;
+		text-transform: none;
+		font-family: Hind, Helvetica, Arial, sans-serif;
+		font-weight: normal;
+		font-size: 14px;
+	}
+
+/*
 	ARCHIVE LOOP
 */
 .archive {

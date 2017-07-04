@@ -8,6 +8,13 @@ Slug: colossal-review
 Authors: Tim Poon
 Summary: Big statements with a big footprint.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/colossal-1.jpg
+Rating: 8
+Release: April 7, 2017
+Genre: Science fiction comedy
+Director: Nacho Vigalondo
+Cast: Anne Hathaway, Jason Sudeikis, Dan Stevens, Austin Stowell, Tim Blake Nelson
+Duration: PT1H50M
+Website: http://sheiscolossal.com/
 
 *Colossal* is not what you expect. If you saw the trailer and went into this thinking it's a low fantasy, summertime romp as Anne Hathaway controls a monster and [saves the world](http://sheiscolossal.com/), then you'd be stupendously wrong. But if you can look past the 30-story romcom monster, then you'll find a surprising, funny, and pointed message about gender relations (and several meandering ones about a bunch of other things).
 
@@ -34,5 +41,3 @@ And that's a damn good thing because the ending doesn't make a lot of logical se
 {% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/colossal-3.jpg "Colossal" "Colossal" %}
 
 Characterizations are sometimes a mess where no one is all that likable or learns all that much, and there's an irresponsible disregard for human life by the film itself that crops up too often when it eventually becomes a large plot point. But Vigalondo nails the relationship drama, and the actors—including the support from Nelson, Stowell, and Stevens—deliver everything their characters need and more to make it all work. If you can deal with some kaiju-level disorientation, then you will find something of a treat in *Colossal*.
-
-**Final Score**: 8 out of 10
