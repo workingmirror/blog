@@ -50,6 +50,13 @@
 					"image": "{{ article.featured }}",
 					"sameAs": "{{ article.metadata.website }}"{% if article.metadata.director %},
 						"director": "{{ article.metadata.director }}"
+					{% elif article.metadata.artist %},
+						"creator": "{{ article.metadata.creator }}",
+						"artist": "{{ article.metadata.artist }}",
+						"colorist": "{{ article.metadata.colorist }}",
+						"inker": "{{ article.metadata.inker }}",
+						"letterer": "{{ article.metadata.letterer }}",
+						"penciler": "{{ article.metadata.penciler }}"
 					{% endif %}
 				},
 				"reviewRating": {
