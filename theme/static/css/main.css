@@ -84,6 +84,39 @@ hr {
 	}
 
 /*
+	BUTTONS
+*/
+.btn {
+	border: 1px solid;
+	padding: 13px 31px;
+	text-align: center;
+	display: inline-block;
+	white-space: pre-wrap;
+	vertical-align: middle;
+	border-radius: 10em;
+	font-size: 12px;
+	font-weight: 600;
+	font-family: Poppins, Helvetica, Arial, sans-serif;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	line-height: 100%;
+	transition-property: color, background;
+}
+	.btn.btn-default {
+		color: #393A3C;
+		background: #FFF;
+		border-color: #FFF;
+	}
+		.btn.btn-default:hover,
+		.btn.btn-default:focus {
+			color: #FFF;
+			background: rgba(255, 255, 255, 0);
+		}
+	.btn .fa {
+		margin-right: 8px;
+	}
+
+/*
 	RESPONSIVE IFRAME
 */
 .videobox {
@@ -900,3 +933,48 @@ html, body {
 			display: block;
 			font-size: 15px;
 		}
+
+/*
+	ERROR
+*/
+.content.error {
+	color: #FFF;
+	min-height: 100%;
+	text-align: center;
+	background: #1080D0;
+	margin-bottom: -65px;
+	position: relative;
+	top: -65px;
+}
+
+.error-block {
+	max-width: 35%;
+	min-width: 500px;
+	margin: 0 auto;
+	position: relative;
+	transform: translateY(-50%);
+	top: 50%;
+}
+	.error-block h1,
+	.error-block h5 {
+		color: #FFF;
+		font-family: Poppins, Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		line-height: 100%;
+	}
+		.error-block h1 {
+			font-size: 125px;
+			letter-spacing: -6px;
+		}
+		.error-block h5 {
+			font-size: 35px;
+			margin: 18px 0 9px 0;
+		}
+	.error-block p {
+		font-size: 18px;
+		line-height: 1.75;
+	}
+	.error-block hr {
+		margin: 36px 0;
+		background: rgba(255, 255, 255, 0.25);
+	}

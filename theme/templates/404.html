@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Page not found{% endblock %}
+{% block header_class %} sheer{% endblock %}
+{% block content_class %} error{% endblock %}
+
+{% block content %}
+	<div class="error-block">
+		{{ page.content }}
+
+		<hr />
+
+		<a href="/" class="btn btn-default"><i class="fa fa-arrow-left"></i> Back to home</a>
+	</div>
+{% endblock %}

@@ -1,0 +1,3 @@
+Sitemap: https://workingmirror.com/sitemap.xml
+User-agent: *
+Disallow: /admin/

@@ -45,6 +45,14 @@ PAGINATION_PATTERNS = (
 	(2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
 
+# Static files
+
+STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.png']
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.png': {'path': 'favicon.png'},
+}
+
 # Theme
 
 THEME = 'theme'
