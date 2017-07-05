@@ -1,0 +1,54 @@
+/*
+	RESET
+*/
+html, body, header, footer, img, nav, div, ol, ul, li, h1, h2, h3, span, p, a, i, em, strong, hr, button, input, form, aside, section, article, iframe, ins {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+/*
+	GENERAL
+*/
+body {
+	font-weight: 400;
+	line-height: 150%;
+	font-family: Helvetica, Arial, sans-serif;
+	background: #FFF;
+}
+
+/*
+	HEADER
+*/
+.header {
+	margin: 0 auto;
+	padding: 36px 0;
+	position: relative;
+	max-width: 960px;
+}
+	.header .md-button {
+		top: 36px;
+		right: 0;
+		position: absolute;
+	}
+
+/*
+	CONTENT
+*/
+#content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/*
+	THUMPER
+*/
+.thumper {
+	top: 10px;
+	right: 10px;
+	position: absolute;
+}

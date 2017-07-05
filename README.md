@@ -22,6 +22,12 @@ $ cd blog/
 $ pip install -r requirements.txt
 ```
 
+There are also front end dependencies for the admin interface, for which you'll need [Yarn](https://yarnpkg.com/).
+
+```bash
+$ yarn install
+```
+
 ## Writing Posts
 
 ### Naming Files
@@ -135,6 +141,7 @@ Go ahead and generate the content.
 
 ```bash
 $ pelican content
+$ ./node_modules/.bin/webpack --config webpack.config.js
 ```
 
 And then launch a server.
@@ -142,4 +149,25 @@ And then launch a server.
 ```bash
 $ cd output/
 $ python -m SimpleHTTPServer
+```
+
+## Adding New Writers
+
+Since this is all based on Markdown files being committed to this repository, new writers need to first acquire a GitHub account.
+
+Then, that user needs to be added to the [Working Mirror organization](https://github.com/orgs/workingmirror/people).
+
+Finally, there's a big ol' `AUTHORS` dict in `pelicanconf.py` that contains all the required information for when we generate pages. It should follow this structure.
+
+```python
+AUTHORS = {
+    'Lando Calrissian': {
+        'email': 'lando@workingmirror.com',
+        'bio': 'You can totally trust me.',
+        'twitter': 'lando',
+        'facebook': 'lando',
+        'instagram': 'lando',
+        'website': 'http://landocalrissian.com/',
+    },
+}
 ```

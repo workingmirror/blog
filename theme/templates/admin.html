@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}" ng-app="blogAdmin">
+<head>
+	<!-- Site stuff -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+	<!-- Page stuff -->
+	<title>Admin panel - {{ SITENAME }}</title>
+	<link rel="canonical" href="{{ SITEURL }}/admin/" />
+</head>
+<body ng-controller="RootCtrl" ng-cloak>
+	<header class="header">
+		<h1>{{ SITENAME }}</h1>
+		<h2>Admin Panel</h2>
+
+		<md-button ng-if="isAuthenticated === true" ng-click="logout()" class="md-accent md-raised">Log out</md-button>
+	</header>
+
+	<div id="content">
+		<button ng-if="isAuthenticated !== true" ng-click="login()" ng-disabled="isLoading">Log in</button>
+
+		<div ng-if="isAuthenticated === true">
+			//
+		</div>
+	</div>
+
+	<md-progress-circular ng-if="isLoading" md-mode="indeterminate" class="thumper"></md-progress-circular>
+
+	<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/admin.js"></script>
+</body>
+</html>
