@@ -5,6 +5,10 @@ body {
 	background: #FFF;
 }
 
+.md-errors-spacer {
+	display: none;
+}
+
 /*
 	HEADER
 */

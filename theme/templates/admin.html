@@ -24,6 +24,9 @@
 		<button ng-if="isAuthenticated !== true" ng-click="login()" ng-disabled="isLoading">Log in</button>
 
 		<md-content ng-if="isAuthenticated === true && viewState === VIEW_STATE_LIST" ng-controller="ListCtrl" layout="row" layout-align="center center" layout-wrap>
+			<md-toolbar class="md-hue-2 md-toolbar-tools">
+				<h3 flex md-truncate>Albums</h3>
+			</md-toolbar>
 			<form ng-submit="createAlbum(newAlbumName)" name="createAlbumForm" layout="row" layout-align="center center" flex="50">
 				<md-input-container>
 					<label>Add album</label>
@@ -41,7 +44,7 @@
 			</form>
 
 			<md-list flex="100">
-				<md-subheader class="md-no-sticky">Albums</md-subheader>
+				<md-subheader class="md-no-sticky">Album List</md-subheader>
 				<md-list-item ng-repeat="album in albums" ng-click="viewAlbum(album)" ng-disabled="isLoading" class="secondary-button-padding">
 					<p>[[album]]</p>
 					<md-button ng-click="showDeleteDialog(album)" ng-disabled="isLoading" class="md-secondary">Delete</md-button>
@@ -53,17 +56,35 @@
 		</md-content>
 
 		<md-content ng-if="isAuthenticated === true && viewState === VIEW_STATE_ALBUM" ng-controller="AlbumCtrl" layout="row" layout-align="center center" layout-wrap>
+			<md-toolbar class="md-hue-2 md-toolbar-tools">
+				<h3 flex md-truncate>[[albumName]]</h3>
+				<md-button ng-click="viewList()" class="md-raised" aria-label="Back to List">Back to List</md-button>
+			</md-toolbar>
+
 			<a ng-repeat="photo in photos" class="photo">
 				<img src="[[photo]]" />
 			</a>
 			<a ng-if="photoCount < 1" class="photo">
 				No photos
 			</a>
+
+			<form ng-submit="addPhoto(selectedFile)" name="addForm">
+				<file-input ng-model="selectedFile" ng-disabled="isLoading" class="md-raised"></file-input>
+				<md-button ng-disabled="isLoading" type="submit" class="md-raised md-primary">Upload</md-button>
+			</form>
 		</md-content>
 	</div>
 
 	<md-progress-circular ng-if="isLoading" md-mode="indeterminate" class="thumper"></md-progress-circular>
 
 	<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/admin.js"></script>
+
+	<script type="text/template" id="file-upload-template">
+		<input type="file" class="ng-hide">
+		<md-button ng-click="triggerInput()" ng-disabled="ngDisabled" aria-label="attach_file">Choose file</md-button>
+		<md-input-container md-no-float>
+			<input ng-model="ngModel.name" ng-click="triggerInput()" ng-disabled="ngDisabled" type="text" placeholder="No file chosen" ng-readonly="true" />
+		</md-input-container>
+	</script>
 </body>
 </html>

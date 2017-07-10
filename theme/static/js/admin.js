@@ -421,6 +421,67 @@ angular.module('blogAdmin', [
 	};
 
 	$scope.viewAlbum();
+
+	$scope.addPhoto = function (photoFile) {
+		$rootScope.isLoading = true;
+
+		pixerService.addPhoto($scope.albumName, photoFile).then(function (data) {
+			console.log('success', data);
+			$scope.photoCount++;
+			$scope.selectedFile = null;
+			$scope.photos.unshift(data.Location);
+		}).catch(function (data) {
+			console.log('error', data);
+		}).finally(function () {
+			$scope.$apply(function () {
+				$rootScope.isLoading = false;
+			});
+		});
+	};
+}).directive('fileInput', function () {
+	return {
+		restrict: 'E',
+		scope: {
+			ngModel: '=',
+			ngDisabled: '=',
+		},
+		link: function (scope, element, attrs) {
+			var inputElem = element[0].querySelector('input');
+
+			scope.triggerInput = function () {
+				inputElem.click();
+			};
+
+			function onChange(ev) {
+				if (ev.target.files[0]) {
+					scope.ngModel = ev.target.files[0];
+				} else {
+					scope.fileName = null;
+				}
+
+				scope.$apply();
+			}
+
+			inputElem.addEventListener('change', onChange);
+
+			element.on('$destroy', function () {
+				inputElem.removeEventListener('change', onChange);
+			});
+
+			if (attrs.class) {
+				var classList = attrs.class.split(' '),
+					buttonElem = element[0].querySelector('.md-button');
+
+				for (var i = 0, l = classList.length; i < l; i++) {
+					if (classList[i].startsWith('md-')) {
+						buttonElem.classList.add(classList[i]);
+						element[0].classList.remove(classList[i]);
+					}
+				}
+			}
+		},
+		template: document.querySelector('#file-upload-template').innerHTML,
+	};
 }).service('pixerService', function () {
 	return new Pixer();
 });
