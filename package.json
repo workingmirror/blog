@@ -13,6 +13,7 @@
     "angular-material": "1.1.4",
     "aws-sdk": "2.80.0",
     "css-loader": "0.28.4",
+    "promise": "8.0.0",
     "satellizer": "0.15.5",
     "style-loader": "0.18.2",
     "webpack": "3.0.0"

@@ -10,8 +10,9 @@
 	<!-- Page stuff -->
 	<title>Admin panel - {{ SITENAME }}</title>
 	<link rel="canonical" href="{{ SITEURL }}/admin/" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
 </head>
-<body ng-controller="RootCtrl" ng-cloak>
+<body ng-controller="BaseCtrl" ng-cloak>
 	<header class="header">
 		<h1>{{ SITENAME }}</h1>
 		<h2>Admin Panel</h2>
@@ -22,9 +23,43 @@
 	<div id="content">
 		<button ng-if="isAuthenticated !== true" ng-click="login()" ng-disabled="isLoading">Log in</button>
 
-		<div ng-if="isAuthenticated === true">
-			//
-		</div>
+		<md-content ng-if="isAuthenticated === true && viewState === VIEW_STATE_LIST" ng-controller="ListCtrl" layout="row" layout-align="center center" layout-wrap>
+			<form ng-submit="createAlbum(newAlbumName)" name="createAlbumForm" layout="row" layout-align="center center" flex="50">
+				<md-input-container>
+					<label>Add album</label>
+					<input ng-model="newAlbumName" ng-disabled="isLoading" />
+				</md-input-container>
+				<md-button ng-disabled="isLoading" type="submit" class="md-raised md-primary">Add</md-button>
+			</form>
+
+			<form ng-submit="listAlbums(searchPrefix)" name="listAlbumsForm" layout="row" layout-align="center center" flex="50">
+				<md-input-container>
+					<label>Search albums</label>
+					<input ng-model="searchPrefix" ng-disabled="isLoading" />
+				</md-input-container>
+				<md-button ng-disabled="isLoading" type="submit" class="md-raised md-primary">Search</md-button>
+			</form>
+
+			<md-list flex="100">
+				<md-subheader class="md-no-sticky">Albums</md-subheader>
+				<md-list-item ng-repeat="album in albums" ng-click="viewAlbum(album)" ng-disabled="isLoading" class="secondary-button-padding">
+					<p>[[album]]</p>
+					<md-button ng-click="showDeleteDialog(album)" ng-disabled="isLoading" class="md-secondary">Delete</md-button>
+				</md-list-item>
+				<md-list-item ng-if="albumCount < 1">
+					<p>No albums</p>
+				</md-list-item>
+			</md-list>
+		</md-content>
+
+		<md-content ng-if="isAuthenticated === true && viewState === VIEW_STATE_ALBUM" ng-controller="AlbumCtrl" layout="row" layout-align="center center" layout-wrap>
+			<a ng-repeat="photo in photos" class="photo">
+				<img src="[[photo]]" />
+			</a>
+			<a ng-if="photoCount < 1" class="photo">
+				No photos
+			</a>
+		</md-content>
 	</div>
 
 	<md-progress-circular ng-if="isLoading" md-mode="indeterminate" class="thumper"></md-progress-circular>
