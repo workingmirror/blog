@@ -13,8 +13,25 @@ from pelicanconf import *
 SITEURL = 'https://workingmirror.com'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+STATIC_CREATE_LINKS = True
+
+FEED_ATOM = 'feed/atom.xml'
+FEED_ALL_ATOM = 'feed/all.atom.xml'
+
+FEED_RSS = 'feed/rss.xml'
+FEED_ALL_RSS = 'feed/all.rss.xml'
+
+CATEGORY_FEED_ATOM = 'feed/{slug}.atom.xml'
+CATEGORY_FEED_RSS = 'feed/{slug}.rss.xml'
+
+AUTHOR_FEED_ATOM = 'feed/{slug}.atom.xml'
+AUTHOR_FEED_RSS = 'feed/{slug}.rss.xml'
+
+TAG_FEED_ATOM = 'feed/{slug}.atom.xml'
+TAG_FEED_RSS = 'feed/{slug}.rss.xml'
+
+TRANSLATION_FEED_ATOM = 'feed/all-{lang}.atom.xml'
+TRANSLATION_FEED_RSS = 'feed/all-{lang}.rss.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 

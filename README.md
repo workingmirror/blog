@@ -8,21 +8,28 @@ Enter [Pelican](https://github.com/getpelican/pelican), a Python-based static si
 
 ## Installation
 
-There's not really a good way to systemically install Pelican plugins other than to include them as submodules ([it even tells you as much](https://github.com/getpelican/pelican-plugins)), so when you clone this repo, you should use the recursive option.
+[`Pelican`](https://getpelican.com/) requires Python 3.9 or newer, but this was developed on 3.13.5.
+
+It's recommended you use [`pyenv`](https://github.com/pyenv/pyenv) + [`pyenv-virtualenv`](https://github.com/pyenv/pyenv-virtualenv) (or similar) to manage versions. On macOS, for instance, this can be accomplished with the following (in addition to updating your `.bash_profile`).
 
 ```bash
-$ git clone --recursive https://github.com/workingmirror/blog.git
+$ brew update
+$ brew install pyenv
+$ brew install pyenv-virtualenv
+$ pyenv install 3.13.5
+$ pyenv virtualenv 3.13.5 blog
+$ echo "blog" > .python-version
 ```
 
-Then you need to set up the Python environment.
+That way the `blog` `virtualenv` will automatically activate whenever you navigate to the repo.
+
+After that, then you can install the packages.
 
 ```bash
-$ pyenv virtualenv 2.7.10 blog
-$ cd blog/
 $ pip install -r requirements.txt
 ```
 
-There are also front end dependencies for the admin interface, for which you'll need [Yarn](https://yarnpkg.com/).
+There are also front-end dependencies for the admin interface, for which you'll need [Yarn](https://yarnpkg.com/).
 
 ```bash
 $ yarn install
@@ -131,7 +138,7 @@ All reviews require the following.
 
 ### Embedding Media
 
-We use the [`liquid_tags`](https://github.com/getpelican/pelican-plugins/tree/master/liquid_tags) plugin.
+We use the [`liquid_tags`](https://github.com/pelican-plugins/liquid-tags) plugin.
 
 When embedding images, you can use `full-image` as a class name to create a responsive image.
 
@@ -147,8 +154,7 @@ $ ./node_modules/.bin/webpack --config webpack.config.js
 And then launch a server.
 
 ```bash
-$ cd output/
-$ python -m SimpleHTTPServer
+$ pelican --listen
 ```
 
 ## Adding New Writers

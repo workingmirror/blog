@@ -17,7 +17,7 @@ def digest_subcategories(generator):
 	for article in generator.articles:
 		process_article(article, category_hash)
 
-	generator.categories = [category for name, category in category_hash.iteritems()]
+	generator.categories = [category for name, category in category_hash.items()]
 
 def convert_subcategories(generator):
 	for article in generator.articles:

@@ -23,8 +23,26 @@ DEFAULT_DATE_FORMAT = '%b %d, %Y'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
+ARTICLE_LANG_URL = '{lang}/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_LANG_SAVE_AS = '{lang}/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+
+DRAFT_URL = 'drafts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+DRAFT_SAVE_AS = 'drafts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+
+DRAFT_LANG_URL = 'drafts/{lang}/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+DRAFT_LANG_SAVE_AS = 'drafts/{lang}/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
+
+PAGE_LANG_URL = '{lang}/{slug}/'
+PAGE_LANG_SAVE_AS = '{lang}/{slug}/index.html'
+
+DRAFT_PAGE_URL = 'drafts/{slug}/'
+DRAFT_PAGE_SAVE_AS = 'drafts/{slug}/index.html'
+
+DRAFT_PAGE_LANG_URL = 'drafts/{lang}/{slug}/'
+DRAFT_PAGE_LANG_SAVE_AS = 'drafts/{lang}/{slug}/index.html'
 
 TAG_URL = 'tag/{slug}/'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
@@ -38,6 +56,15 @@ CATEGORY_URL = 'category/{slug}/'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 CATEGORIES_SAVE_AS = 'categories/index.html'
 
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+YEAR_ARCHIVE_URL = '{date:%Y}/'
+
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+MONTH_ARCHIVE_URL = '{date:%Y}/{date:%m}/'
+
+DAY_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/index.html'
+DAY_ARCHIVE_URL = '{date:%Y}/{date:%m}/{date:%d}/'
+
 ARCHIVES_SAVE_AS = 'archives/index.html'
 
 PAGINATION_PATTERNS = (
@@ -47,10 +74,18 @@ PAGINATION_PATTERNS = (
 
 # Static files
 
-STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.png']
+STATIC_PATHS = [
+	'images',
+	'extra',
+]
+
 EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.png': {'path': 'favicon.png'},
+	'extra/robots.txt': {
+		'path': 'robots.txt',
+	},
+	'extra/favicon.png': {
+		'path': 'favicon.png',
+	},
 }
 
 # Theme
@@ -64,21 +99,34 @@ JINJA_ENVIRONMENT = {
 	'lstrip_blocks': True,
 	'extensions': [
 		'jinja2.ext.do',
-		'jinja2.ext.with_',
 	],
 }
 
 # Feed generation is usually not desired when developing
 
+FEED_ATOM = None
 FEED_ALL_ATOM = None
+
+FEED_RSS = None
+FEED_ALL_RSS = None
+
 CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+CATEGORY_FEED_RSS = None
+
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+TAG_FEED_ATOM = None
+TAG_FEED_RSS = None
+
+TRANSLATION_FEED_ATOM = None
+TRANSLATION_FEED_RSS = None
+
 # Facebook
 
-FACEBOOK_ADMINS = ['16739672']
+FACEBOOK_ADMINS = [
+	'16739672',
+]
 
 # Disqus
 
@@ -86,14 +134,33 @@ DISQUS_SITENAME = 'testing-working-mirror'
 
 # Plugins
 
-PLUGIN_PATHS = ['pelican-plugins', 'plugins']
-PLUGINS = ['sitemap', 'liquid_tags.youtube', 'liquid_tags.img', 'gravatar', 'subcategories', 'related_posts']
+PLUGIN_PATHS = [
+	'pelican-plugins',
+	'plugins',
+]
+
+PLUGINS = [
+	'pelican.plugins.sitemap',
+	'pelican.plugins.liquid_tags',
+	'gravatar',
+	'subcategories',
+	'related_posts',
+]
+
+LIQUID_TAGS = [
+	'img',
+	'vimeo',
+	'youtube',
+]
 
 # Sitemap
 
 SITEMAP = {
 	'format': 'xml',
-	'exclude': ['tag/', 'category/'],
+	'exclude': [
+		'tag/',
+		'category/',
+	],
 }
 
 # Authors
@@ -105,7 +172,7 @@ AUTHORS = {
 		'twitter': 'mockenoff',
 		'facebook': 'timpoon',
 		'instagram': 'mockenoff',
-		'website': 'http://timothypoon.com/',
+		'website': 'https://timothypoon.com/',
 	},
 }
 
