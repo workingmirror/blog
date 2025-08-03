@@ -39,7 +39,8 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
 	color: #303133;
-	font-weight: bold;
+	font-weight: 500;
+	font-family: Hind;
 }
 
 button {
@@ -583,12 +584,17 @@ html, body {
 */
 .article-header {
 	width: 100%;
-	height: 524px;
+	min-height: 524px;
+	display: flex;
+	flex-wrap: wrap;
 	margin: -65px 0 0 0;
-	padding: 186px 78px 0 78px;
+	padding: 54px 78px 54px 78px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center 0;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 	text-align: center;
 	position: relative;
 }
@@ -620,6 +626,7 @@ html, body {
 		z-index: 1;
 	}
 	.article-header .article-title {
+		width: 100%;
 		font-size: 75px;
 		font-weight: bold;
 		font-family: Poppins, Helvetica, Arial, sans-serif;
@@ -633,6 +640,11 @@ html, body {
 		border-left: 1px solid #FFF;
 		border-right: 1px solid #FFF;
 	}
+	.article-header .article-author {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
 
 .article {
 	width: 100%;
@@ -644,6 +656,13 @@ html, body {
 		padding: 72px 36px;
 		margin: 0 auto;
 	}
+
+	.article .article-content h3 {
+		margin: 27px 0 0;
+		line-height: 1.2;
+		font-size: 24px;
+	}
+
 	.article p {
 		color: #777;
 		font-size: 15px;
@@ -745,7 +764,7 @@ html, body {
 	AUTHOR
 */
 .article-header.author-header {
-	height: 311px;
+	min-height: 311px;
 	text-align: left;
 	padding-top: 100px;
 	background-position: center center;
@@ -782,7 +801,7 @@ html, body {
 	.article-header.author-header .article-author-bio,
 	.article-header.author-header .article-author-social {
 		font-size: 15px;
-		font-weight: normal;
+		font-weight: 300;
 		font-family: Hind, Helvetica, Arial, sans-serif;
 		margin-top: 17px;
 	}
@@ -803,7 +822,7 @@ html, body {
 		border: none;
 		text-transform: none;
 		font-family: Hind, Helvetica, Arial, sans-serif;
-		font-weight: normal;
+		font-weight: 300;
 		font-size: 14px;
 	}
 
@@ -882,6 +901,7 @@ html, body {
 	.archive-list .archive-block-date,
 	.archive-list .archive-block-title,
 	.archive-list p {
+		color: #303133;
 		padding: 0 36px;
 	}
 		.archive-list .archive-block-date {
@@ -896,7 +916,9 @@ html, body {
 			font-weight: 600;
 		}
 		.archive-list p {
+			color: #777777;
 			font-size: 15px;
+			font-weight: 300;
 			padding-bottom: 36px;
 		}
 

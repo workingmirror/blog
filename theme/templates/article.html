@@ -93,13 +93,27 @@
 
 {% block content %}
 	<header class="article-header parallax-background" style="background-image: url({{ article.featured }})">
-		<h1 class="article-title">{{ article.title }}</h1>
-		<span class="article-date">{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}</span>
+		<h1 class="article-title">
+			{{ article.title }}
+		</h1>
+
+		<span class="article-date">
+			{{ article.date.strftime(DEFAULT_DATE_FORMAT) }}
+		</span>
+
 		<span class="article-category">
 			In
-			<a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>{% if article.subcategories %}, {{ ', '.join(article.subcategories) }}{% endif %}
+
+			<a href="{{ SITEURL }}/{{ article.category.url }}">
+				{{ article.category }}
+			</a>
+
+			{% if article.subcategories %}, {{ ', '.join(article.subcategories) }}{% endif %}
 		</span>
-		<span class="article-author">By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></span>
+
+		<span class="article-author">
+			By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+		</span>
 	</header>
 
 	<article class="article">
