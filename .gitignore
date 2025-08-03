@@ -101,5 +101,6 @@ ENV/
 .mypy_cache/
 
 # Generated output
+cache/
 output/
 node_modules/

@@ -58,11 +58,14 @@
 		<md-content ng-if="isAuthenticated === true && viewState === VIEW_STATE_ALBUM" ng-controller="AlbumCtrl" layout="row" layout-align="center center" layout-wrap>
 			<md-toolbar class="md-hue-2 md-toolbar-tools">
 				<h3 flex md-truncate>[[albumName]]</h3>
-				<md-button ng-click="viewList()" class="md-raised" aria-label="Back to List">Back to List</md-button>
+
+				<md-button ng-click="viewList()" class="md-raised" aria-label="Back to List">
+					Back to List
+				</md-button>
 			</md-toolbar>
 
-			<a ng-repeat="photo in photos" class="photo">
-				<img src="[[photo]]" />
+			<a ng-repeat="photo in photos" ng-click="openModal($event, photo)" href="[[photo.url]]" class="photo">
+				<img src="[[photo.url]]" />
 			</a>
 			<a ng-if="photoCount < 1" class="photo">
 				No photos
@@ -72,6 +75,30 @@
 				<file-input ng-model="selectedFile" ng-disabled="isLoading" class="md-raised"></file-input>
 				<md-button ng-disabled="isLoading" type="submit" class="md-raised md-primary">Upload</md-button>
 			</form>
+
+			<div ng-class="{'modal-show': selectedPhoto !== null}" class="modal">
+				<form name="photoForm" class="modal-body">
+					<img src="[[selectedPhoto.url]]" class="modal-body-image" />
+
+					<figcaption class="modal-body-caption">
+						<p class="modal-body-caption-url">
+							[[selectedPhoto.url]]
+						</p>
+						<p class="modal-body-caption-info">
+							Last Modified: [[selectedPhoto.modified]]
+						</p>
+						<p class="modal-body-caption-info">
+							Size: [[selectedPhoto.size]]
+						</p>
+					</figcaption>
+
+					<div class="modal-body-controls">
+						<md-button ng-click="closeModal()" class="md-raised" aria-label="Close">
+							Close
+						</md-button>
+					</div>
+				</form>
+			</div>
 		</md-content>
 	</div>
 

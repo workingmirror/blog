@@ -14,7 +14,14 @@ module.exports = {
 					'style-loader',
 					'css-loader'
 				]
-			}
-		]
-	}
+			},
+			{
+				test: /\.js?$/,
+				loader: 'ng-annotate-loader',
+				options : {
+					ngAnnotate: 'ng-annotate-patched',
+				},
+			},
+		],
+	},
 };

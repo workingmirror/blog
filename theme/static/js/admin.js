@@ -7,7 +7,6 @@ import angular from 'angular';
 import 'angular-material';
 import 'satellizer';
 import AWS from 'aws-sdk';
-import Promise from 'promise';
 
 /**
  * Wrapper class for S3 object management, specifically for images.
@@ -140,7 +139,11 @@ class Pixer {
 						count: data.KeyCount,
 						nextToken: 'NextContinuationToken' in data ? data.NextContinuationToken : false,
 						photos: data.Contents.map(function (photo) {
-							return bucketUrl + encodeURIComponent(photo.Key);
+							return {
+								url: bucketUrl + encodeURIComponent(photo.Key),
+								modified: photo.LastModified,
+								size: photo.Size,
+							};
 						}),
 					});
 				}
@@ -401,6 +404,7 @@ angular.module('blogAdmin', [
 }).controller('AlbumCtrl', function ($scope, $rootScope, $mdDialog, pixerService) {
 	$scope.photos = [];
 	$scope.photoCount = 0;
+	$scope.selectedPhoto = null;
 	$scope.nextToken = false;
 
 	$scope.viewAlbum = function () {
@@ -437,6 +441,19 @@ angular.module('blogAdmin', [
 				$rootScope.isLoading = false;
 			});
 		});
+	};
+
+	$scope.openModal = function (ev, photo) {
+		if (ev) {
+			ev.preventDefault();
+			ev.stopPropagation();
+		}
+
+		$scope.selectedPhoto = photo;
+	};
+
+	$scope.closeModal = function () {
+		$scope.selectedPhoto = null;
 	};
 }).directive('fileInput', function () {
 	return {

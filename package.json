@@ -7,15 +7,17 @@
   "author": "Tim Poon <mockenoff@yahoo.com>",
   "license": "MIT",
   "dependencies": {
-    "angular": "1.5.11",
-    "angular-animate": "1.5.11",
-    "angular-aria": "1.5.11",
-    "angular-material": "1.1.4",
-    "aws-sdk": "2.80.0",
-    "css-loader": "0.28.4",
-    "promise": "8.0.0",
+    "angular": "1.8.3",
+    "angular-animate": "1.8.3",
+    "angular-aria": "1.8.3",
+    "angular-material": "1.2.5",
+    "aws-sdk": "2.1692.0",
+    "css-loader": "7.1.2",
+    "ng-annotate-loader": "0.7.0",
+    "ng-annotate-patched": "1.14.1",
     "satellizer": "0.15.5",
-    "style-loader": "0.18.2",
-    "webpack": "3.0.0"
+    "style-loader": "4.0.0",
+    "webpack": "5.101.0",
+    "webpack-cli": "6.0.1"
   }
 }

@@ -13,6 +13,9 @@ from pelicanconf import *
 SITEURL = 'https://workingmirror.com'
 RELATIVE_URLS = False
 
+CACHE_CONTENT = False
+LOAD_CONTENT_CACHE = False
+
 STATIC_CREATE_LINKS = True
 
 FEED_ATOM = 'feed/atom.xml'

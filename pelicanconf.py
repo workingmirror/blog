@@ -72,6 +72,9 @@ PAGINATION_PATTERNS = (
 	(2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
 
+CACHE_CONTENT = True
+LOAD_CONTENT_CACHE = True
+
 # Static files
 
 STATIC_PATHS = [
