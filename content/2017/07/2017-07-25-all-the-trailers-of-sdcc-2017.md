@@ -2,7 +2,7 @@ Title: All the Trailers of SDCC 2017
 Date: 2017-07-25T15:02:14+00:00
 Modified: 2017-07-25T15:02:14+00:00
 Category: News
-Subcategories: Movies, Television, 
+Subcategories: Movies, Television
 Tags: Alex Kurtzman, The Flash, Supergirl, Scott Buck, Jonathan Nolan, Westworld, Thor: Ragnarok, Taika Waititi, Riverdale, Roberto Aguirre-Sacasa, SDCC 2017, 12 Monkeys, Alexandre Bustillo, American Horror Story, Andrew Kreisberg, Arrow, Black Lightning, Bob Logan, Bright, Bruno Heller, Charlie Bean, D. B. Weiss, Damian Kindler, Dave Erickson, David Ayer, David Benioff, Dirk Gently's Holistic Detective Agency, Doctor Who, Fear the Walking Dead, Freedom Fighters: The Ray, Game of Thrones, Gotham, Guillermo del Toro, Inhumans, Jessica Queller, Jigsaw, Joaquim Dos Santos, Julien Maury, Justice League, Kingsman: The Golden Circle, Krypton, Leatherface, Legends of Tomorrow, Lisa Joy, Marc Guggenheim, Marco Ramirez, Matt Nix, Matthew Vaughn, Michael Hirst, Naren Shankar, Neil LaBute, Pacific Rim: Uprising, Paul Fisher, Phil Klemmer, Preacher, Ready Player One, Robert C. Cooper, Robert Rovner, Ryan Murphy, Salim Akil, Sam Catlin, Scott Gimple, Seth MacFarlane, Star Trek: Discovery, Stargate: Origins, Steven S. DeKnight, Steven Spielberg, Stranger Things, Ted Humphrey, Terry Matalas, The Defenders, The Duffer Brothers, The Expanse, The Gifted, The Lego Ninjago Movie, The Magicians, The Orville, The Shape of Water, The Spierig Brothers, The Walking Dead, Travis Fickett, Van Helsing, Vikings, Voltron: Legendary Defender, Zack Snyder
 Slug: all-the-trailers-of-sdcc-2017
 Authors: Tim Poon
@@ -127,7 +127,7 @@ That pretty well encapsulates what it's like to read an Adams novel anyway, so t
 
 ### *Black Lightning*
 
-{% youtube 7dM8dI\_-P9o %}
+{% youtube 7dM8dI_-P9o %}
 
 Yeah, we see more of other shows than actual *Black Lightning*, but it's still nice to see Black Lightning get his time to shine. His turn in the *Infinite Crisis* storyline was pretty damn good, and not to mention seeing another heroic metahuman that isn't a speedster in The CW Arrowverse is a refreshing thought.
 

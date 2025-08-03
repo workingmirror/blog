@@ -49,6 +49,6 @@ Cofounder and CEO of Kik makes a good argument for singular bots, though, in [th
 
 {% img full-image http://workingmirror.com/blog/wp-content/uploads/2016/12/a-future-of-chatbots-5.jpg "Kik ad" "Kik ad" %}
 
-Facebook doesn't create trends anymore. It rides on a wave that they know is going to crest. And after Slack announced its \$80 million fund for bot development, Telegram's rapid platform development, and longstanding bot integrations, Facebook is finally tapping into something a lot of other people saw long ago. But it's also not sure how to get there.
+Facebook doesn't create trends anymore. It rides on a wave that they know is going to crest. And after Slack announced its $80 million fund for bot development, Telegram's rapid platform development, and longstanding bot integrations, Facebook is finally tapping into something a lot of other people saw long ago. But it's also not sure how to get there.
 
 To which I say: [figure it the fuck out](http://arstechnica.com/staff/2016/04/facebooks-bots-are-already-revolting/). I cannot abide another SmarterChild.

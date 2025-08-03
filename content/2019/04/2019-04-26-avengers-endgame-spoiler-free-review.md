@@ -48,4 +48,4 @@ With the people and money and companies involved, *Endgame* could have only been
 
 {% img full-image https://workingmirror.com/blog/wp-content/uploads/2016/12/avengers-endgame-9.jpg "Avengers: Endgame" "Avengers: Endgame" %}
 
-It breaks its own rules over and over again, ignores logic and consistency, and slaps together drama and humor and aggressively splashy action in a haphazard \$400 million diorama. And it's perfect just the way it is.
+It breaks its own rules over and over again, ignores logic and consistency, and slaps together drama and humor and aggressively splashy action in a haphazard $400 million diorama. And it's perfect just the way it is.
