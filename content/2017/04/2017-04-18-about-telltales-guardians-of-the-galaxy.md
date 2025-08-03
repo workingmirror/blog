@@ -1,14 +1,15 @@
 Title: About Telltale's Guardians of the Galaxy
 Date: 2017-04-18T15:37:03+00:00
 Modified: 2017-04-18T15:37:03+00:00
-Category: Video Games
+Category: Opinion
+Subcategories: Video Games
 Tags: Guardians of the Galaxy: The Telltale Series, Telltale Games
 Slug: about-telltales-guardians-of-the-galaxy
 Authors: Tim Poon
 Summary: It's a bit spacey.
 Featured: https://workingmirror.com/blog/wp-content/uploads/2016/12/guardians-of-the-galaxy-the-telltale-series-1.jpg
 
-We've heard a near ungodly amount of news regarding the impending *Guardians of the Galaxy Vol. 2*. There are like [a dozen post-credits scenes](http://io9.gizmodo.com/wait-guardians-of-the-galaxy-vol-2-has-how-many-post-1794399080) and writer/director James Gunn will continue for another [20 sequels](http://www.polygon.com/2017/4/17/15330862/guardians-of-the-galaxy-vol-3-james-gunn). Or something. But what about Telltale's take on the franchise. What about *[Guardians of the Galaxy: The Telltale Series](https://telltale.com/series/guardiansofthegalaxy/)*?
+We've heard a near ungodly amount of news regarding the impending *Guardians of the Galaxy Vol. 2*. There are like [a dozen post-credits scenes](http://io9.gizmodo.com/wait-guardians-of-the-galaxy-vol-2-has-how-many-post-1794399080) and writer/director James Gunn will continue for another [20 sequels](http://www.polygon.com/2017/4/17/15330862/guardians-of-the-galaxy-vol-3-james-gunn). Or something. But what about Telltale's take on the franchise. What about [*Guardians of the Galaxy: The Telltale Series*](https://telltale.com/series/guardiansofthegalaxy/)?
 
 Upfront, it sounds like the perfect marriage betwixt material and developer. These interstellar misfits were made for episodic content, freely flowing between sitcom-style predicaments and action-oriented cliffhangers. And with the guiding hand of a seasoned storyteller like Telltale, we can expect some rock solid drama to boot.
 

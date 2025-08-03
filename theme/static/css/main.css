@@ -666,6 +666,7 @@ html, body {
 	.article p {
 		color: #777;
 		font-size: 15px;
+		font-weight: 300;
 		line-height: 1.75;
 	}
 		.article p:not(:first-of-type) {
@@ -810,7 +811,7 @@ html, body {
 	CATEGORY
 */
 .article-header.category-header {
-	height: 350px;
+	min-height: 350px;
 	padding-top: 160px;
 }
 	.article-header.category-header .category-title {
@@ -921,6 +922,18 @@ html, body {
 			font-weight: 300;
 			padding-bottom: 36px;
 		}
+
+/*
+	REVIEW
+*/
+.review-block {
+	font-size: 15px;
+	font-weight: 300;
+}
+	.review-block .rating {
+		font-size: 15px;
+		font-weight: 300;
+	}
 
 /*
 	PAGINATION
